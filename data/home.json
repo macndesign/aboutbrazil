@@ -1,0 +1,170 @@
+{
+  "navBar": {
+    "name": "AboutBrazil",
+    "menuItems": [
+      {
+        "name": "QUEM SOMOS",
+        "link": "#"
+      },
+      {
+        "name": "SERVIÇOS",
+        "link": "#"
+      },
+      {
+        "name": "CLIENTES",
+        "link": "#"
+      },
+      {
+        "name": "POR QUE O BRASIL?",
+        "link": "#"
+      }
+    ]
+  },
+  "cover": {
+    "image": {
+      "rotate": true,
+      "rotateTime": 5,
+      "opacity": 0.5,
+      "list": [
+        "http://bestanimations.com/Nature/flowing-waterfall-cliff-green-nature-animated-gif.gif",
+        "https://d13yacurqjgara.cloudfront.net/users/121337/screenshots/2572438/mbe_earth.gif",
+        "https://media.giphy.com/media/TKL07SyUBRIpq/giphy.gif"
+      ]
+    },
+    "title": "O BRASIL É A NOSSA CASA",
+    "subtitle": "AMAMOS NOSSO PAÍS",
+    "body": "Conheça a gente, entre em nosso lar.",
+    "buttons": [
+      {
+        "label": "CONHEÇA-NOS",
+        "link": "#",
+        "title": "",
+        "class": "mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-warning"
+      },
+      {
+        "label": "CLIENTES",
+        "link": "#",
+        "title": "",
+        "class": "mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay"
+      }
+    ]
+  },
+  "features": [
+    {
+      "icon": "/assets/images/clear-350x350-99.png",
+      "title": "Pesquisa Qualitativa",
+      "body": "Estudo exploratório, não conclusivo e não estatístico que identifica e analisa profundamente dados não mensuráveis (sentimentos, sensações e percepções) de um determinado grupo de indivíduos em relação à um problema específico."
+    },
+    {
+      "icon": "/assets/images/reminders-350x350-18.png",
+      "title": "Pesquisa Quantitativa",
+      "body": "Busca evidência conclusiva baseada em amostras grandes e representativas. Suas descobertas podem ser tratadas como conclusivas e utilizadas para recomendar um curso de ação inicial."
+    },
+    {
+      "icon": "/assets/images/phone-350x350-12.png",
+      "title": "Processamento de dados",
+      "body": "Tratamento dos dados crus para que se gere as informações pertinentes tratadas, organizadas e compreensíveis do estudo realizado."
+    }
+  ],
+  "about": {
+    "photo": "assets/images/imac-605421-1920-1920x1275-41.jpg",
+    "title": "NÓS SOMOS A ABOUT BRAZIL",
+    "subtitle": "Uma empresa apaixonada pelo que faz",
+    "body": "Somos uma empresa de pesquisa de mercado, sediada no Brasil, especializada em estudos quantitativos e qualitativos. Nosso objetivo é realizar estudos mercadológicos, auxiliando empresas de produtos e serviços de diversos países no processo de tomada de decisões de marketing e/ou comerciais dentro de suas áreas de atuação.Com amplo conhecimento do mercado brasileiro e latino-americano, a About Brazil se destaca por elaborar e executar projetos de alto nível, garantindo elevado índice de satisfação aos seus clientes. Isso graças a vasta experiência e preparo de sua equipe. Dispomos de amplo alcance em termos de serviços de pesquisa de mercado, cobrindo Brasil e América Latina, contando com parceiros locais em diversos países deste continente.",
+    "button": {
+      "label": "VEJA MAIS",
+      "link": "about"
+    }
+  },
+  "deposition": {
+    "title": "DEPOIMENTOS",
+    "list": [
+      {
+        "name": "Claudia Carrasco",
+        "position": "Analista",
+        "company": {
+          "name": "Clearstate",
+          "link": "http://clearstate.com/"
+        },
+        "text": "Nós estamos muito satisfeitos com a qualidade do trabalho da sua empresa e a responsividade de vocês. O prazer é todo nosso!"
+      },
+      {
+        "name": "Tammy Ciliberti",
+        "position": "DIRETORA DE CAMPO",
+        "company": {
+          "name": "Q RESEARCH SOLUTIONS",
+          "link": "http://www.qrsglobal.com/"
+        },
+        "text": "No Brasil, nós temos parceria com a Abuot Brazil e eles são fabulosos!"
+      },
+      {
+        "name": "Danilo Weiner",
+        "position": "EQUIPE DE INOVAÇÃO DE PRODUTOS",
+        "company": {
+          "name": "SAMSUNG",
+          "link": ""
+        },
+        "text": "Queria agradecer o empenho de vocês em terem conseguido viabilizar todas as home-visits, shop along e entrevistas com experts com uma super flexibilidade e, principalmente, com acurácia, já que considero que conseguimos um excelente mix de perfis na home-visits e os 2 experts que partiram de vocês foram não menos que excelentes."
+      },
+      {
+        "name": "Zach Simmons",
+        "position": "Fundador",
+        "company": {
+          "name": "Discuss",
+          "link": "http://www.discuss.io/"
+        },
+        "text": "Estamos muito agradecidos pela About Brazil ter sido capaz de dar suporte ao nosso crescimento. Sua equipe é razão fundamental de Brasil continuar sendo meu mercado consumidor favorito."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Descubra mais sobre o poder de uma pesquisa bem excutada",
+    "subtitle": "VEM TOMAR UM CAFÉ CONOSCO",
+    "address": {
+      "title": "ENDEREÇOS",
+      "list": [
+        {
+          "title": "NO CEARÁ",
+          "street": "Rua Dom Joaquim de Melo",
+          "number": "407",
+          "city": "Fortaleza",
+          "state": "CE",
+          "country": "Brasil",
+          "zip": {"label": "CEP", "value": "60430-660"},
+          "phone": {"label": "T", "value": "+55 (85) 3021-5784"},
+          "fax": {"label": "F", "value": "+55 (85) 3253-3293"}
+        },
+        {
+          "title": "NA BAHIA",
+          "street": "Rua da Mouraria",
+          "number": "03 - sala 201",
+          "city": "Salvador",
+          "state": "BA",
+          "country": "Brasil",
+          "zip": {"label": "CEP", "value": "60430-660"},
+          "phone": {"label": "T", "value": "+55 (71) 3266-1038"},
+          "fax": {"label": "F", "value": "+55 (71) 9107-4145"}
+        }
+      ]
+    },
+    "about": {
+      "title": "Somos a About Brazil",
+      "body": "Uma empresa de pessoas apaixonadas pelo que fazem e que acreditam que pesquisa é vitalmente um trabalho em equipe."
+    },
+    "association": {
+      "title": "Somos associados:",
+      "list": [
+        {
+          "name": "Abep",
+          "link": "http://crq.abep.org/",
+          "image": "http://staging.terraverde.ppg.br/wp-content/uploads/2016/06/logo-crq-abep.jpg"
+        },
+        {
+          "name": "Esomar",
+          "link": "https://www.esomar.org/",
+          "image": "http://staging.terraverde.ppg.br/wp-content/uploads/2016/06/logo-esomar.jpg"
+        }
+      ]
+    }
+  }
+}
