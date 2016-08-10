@@ -25,11 +25,6 @@ const AboutPhoto = (props) => (
                                 <p>{props.body}&nbsp;</p>
                             </div>
                         </div>
-                        <div className="mbr-section__container">
-                            <div className="mbr-buttons mbr-buttons--auto-align btn-inverse"><a
-                                className="mbr-buttons__btn btn btn-lg btn-default"
-                                href={props.button.link}>{props.button.label}</a></div>
-                        </div>
                     </div>
                 </div>
             </div>

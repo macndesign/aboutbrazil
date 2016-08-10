@@ -12,9 +12,8 @@ const About = (props) => (
                         <div className="row">
                             <div className=" col-sm-6">
                                 <div className="mbr-hero animated fadeInUp">
-                                    <h1 className="mbr-hero__text">FREE BOOTSTRAP TEMPLATE</h1>
-                                    <p className="mbr-hero__subtext">Mobirise template is free and you can use it in
-                                        your commercial as well as your personal works.<br /></p>
+                                    <h1 className="mbr-hero__text">TEMPLATE</h1>
+                                    <p className="mbr-hero__subtext">Personal works.<br /></p>
                                 </div>
                                 <div className="mbr-buttons btn-inverse mbr-buttons--left"><a
                                     className="mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-info"
