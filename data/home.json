@@ -4,19 +4,19 @@
     "menuItems": [
       {
         "name": "QUEM SOMOS",
-        "link": "#"
+        "link": "#/we-are"
       },
       {
         "name": "SERVIÇOS",
-        "link": "#"
+        "link": "#/services"
       },
       {
         "name": "CLIENTES",
-        "link": "#"
+        "link": "#/customers"
       },
       {
         "name": "POR QUE O BRASIL?",
-        "link": "#"
+        "link": "#/why-brazil"
       }
     ]
   },

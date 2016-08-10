@@ -1,0 +1,49 @@
+{
+  "header": {
+    "image": "https://d13yacurqjgara.cloudfront.net/users/121337/screenshots/2572438/mbe_earth.gif",
+    "title": "QUEM SOMOS",
+    "subtitle": "Conheça nossa empresa"
+  },
+  "team": {
+    "executives": {
+      "title": "Diretoria Executiva",
+      "list": [
+        {
+          "photo": "http://staging.terraverde.ppg.br/wp-content/uploads/2016/05/Wagner-Rebouças.jpg",
+          "name": "Wagner Rebouças",
+          "about": "Pós-graduação em Administração de Empresas com foco em marketing. 30 anos de experiência no Mercado."
+        }
+      ]
+    },
+    "internationalDivision": {
+      "title": "Divisão Internacional – Atendimento ao Cliente",
+      "list": [
+        {
+          "photo": "http://staging.terraverde.ppg.br/wp-content/uploads/2016/05/Valentim-Rebouças.jpg",
+          "name": "Valentim Fernandes",
+          "about": "Pós-graduação em Ciências Humanas – Línguas Estrangeiras 15 anos de experiência em Pesquisa de Mercado."
+        },
+        {
+          "photo": "http://staging.terraverde.ppg.br/wp-content/uploads/2016/05/Aragão-Marques.jpg",
+          "name": "Aragão Marques",
+          "about": "Coordenador Internacional de Projetos."
+        }
+      ]
+    },
+    "OperationsDivision": {
+      "title": "Divisão de Operações",
+      "list": [
+        {
+          "photo": "http://staging.terraverde.ppg.br/wp-content/uploads/2016/05/Valentim-Rebouças.jpg",
+          "name": "Valentim Fernandes",
+          "about": "Pós-graduação em Ciências Humanas – Línguas Estrangeiras 15 anos de experiência em Pesquisa de Mercado."
+        },
+        {
+          "photo": "http://staging.terraverde.ppg.br/wp-content/uploads/2016/05/Aragão-Marques.jpg",
+          "name": "Aragão Marques",
+          "about": "Coordenador Internacional de Projetos."
+        }
+      ]
+    }
+  }
+}

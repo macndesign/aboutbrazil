@@ -23,7 +23,7 @@ const NavBar = (props) => {
                                     </a>
                                 </span>
                                 <span className="mbr-brand__name">
-                                    <a className="mbr-brand__name text-white" href="/">{props.name}</a>
+                                    <a className="mbr-brand__name text-white" href="#/">{props.name}</a>
                                 </span>
                             </span>
                         </div>
