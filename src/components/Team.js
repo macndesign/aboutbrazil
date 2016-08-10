@@ -10,10 +10,15 @@ const Team = (props) => (
                     <ul className="mbr-reviews mbr-reviews--wysiwyg row" style={{marginTop: '5rem'}}>
                         {team.list.map((member) => <li key={member.name} className="mbr-reviews__item col-sm-6 col-md-3">
                             <div className="mbr-reviews__text">
-                                <p className="mbr-reviews__p">
-                                    <img alt={member.name} className="img-circle col-sm-12" src={member.photo}
-                                         style={{margin: '-8rem 0 2rem'}}/>
-                                </p>
+                                <div className="img-circle col-sm-12"
+                                     style={{
+                                         margin: '-8rem 0 2rem',
+                                         clear: 'both',
+                                         background: `url(${member.photo}) no-repeat center`,
+                                         backgroundSize: 'cover',
+                                         height: 140,
+                                         width: 140}}>&nbsp;
+                                </div>
                                 <p className="mbr-reviews__p" style={{textAlign: 'center'}}>{member.name}</p>
                             </div>
                             <div className="mbr-reviews__author mbr-reviews__author--short">
