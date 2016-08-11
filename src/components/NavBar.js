@@ -41,7 +41,7 @@ const NavBar = (props) => {
                                     <ul className="mbr-navbar__items mbr-navbar__items--right mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-inverse mbr-buttons--active">
                                         <li className="mbr-navbar__item">
                                             <a className="mbr-buttons__btn btn btn-default"
-                                               href="#">
+                                               href="#contacts2-57">
                                                 CONTATO
                                             </a>
                                         </li>
