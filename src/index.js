@@ -12,10 +12,15 @@ import './index.css';
         }),
         $.getJSON('/data/we-are.json', function(data) {
             pageData.weAre = data;
+        }),
+        $.getJSON('/data/services.json', function(data) {
+            pageData.services = data;
         })
     ).then(
         function() {
-            if (pageData.home && pageData.weAre) {
+            if (pageData.home &&
+                pageData.weAre &&
+                pageData.services) {
                 console.log(pageData);
                 function render() {
                     var route = win.location.hash.substr(1);

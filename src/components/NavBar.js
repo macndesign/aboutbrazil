@@ -42,7 +42,7 @@ const NavBar = (props) => {
                                         <li className="mbr-navbar__item">
                                             <a className="mbr-buttons__btn btn btn-default"
                                                href="#contacts2-57">
-                                                CONTATO
+                                                {props.contact}
                                             </a>
                                         </li>
                                     </ul>
