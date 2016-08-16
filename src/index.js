@@ -15,12 +15,16 @@ import './index.css';
         }),
         $.getJSON('/data/services.json', function(data) {
             pageData.services = data;
+        }),
+        $.getJSON('/data/customers.json', function(data) {
+            pageData.customers = data;
         })
     ).then(
         function() {
             if (pageData.home &&
                 pageData.weAre &&
-                pageData.services) {
+                pageData.services &&
+                pageData.customers) {
                 console.log(pageData);
                 function render() {
                     var route = win.location.hash.substr(1);

@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Aller';
+    url('assets/fonts/Aller/AllerDisplay.ttf') format('truetype'),
+    font-weight: normal;
+    font-style: normal;
+}
+
+.mbr-brand__name a {
+  font-size: 24px;
+  font-family: 'Aller', sans-serif;
+}

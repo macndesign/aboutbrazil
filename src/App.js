@@ -3,6 +3,7 @@ import NavBar from './components/NavBar';
 import Home from './pages/Home';
 import WeAre from './pages/WeAre';
 import Services from './pages/Services';
+import Customers from './pages/Customers';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import './App.css';
@@ -17,6 +18,9 @@ const App = React.createClass({
                 break;
             case '/services':
                 Child = Services;
+                break;
+            case '/customers':
+                Child = Customers;
                 break;
             default:
                 Child = Home;

@@ -16,14 +16,14 @@ const NavBar = (props) => {
                     <div className="mbr-navbar__container">
                         <div className="mbr-navbar__column mbr-navbar__column--s mbr-navbar__brand">
                             <span className="mbr-navbar__brand-link mbr-brand mbr-brand--inline">
+                                <span className="mbr-brand__name">
+                                    <a className="mbr-brand__name text-white" href="#/">{props.name}</a>
+                                </span>
                                 <span className="mbr-brand__logo">
                                     <a href="/">
                                         <img className="mbr-navbar__brand-img mbr-brand__img"
-                                             src="assets/images/discover-mobile-350x350-53.png" alt="About Brazil"/>
+                                             src="assets/images/about-brazil-logo.png" alt="About Brazil"/>
                                     </a>
-                                </span>
-                                <span className="mbr-brand__name">
-                                    <a className="mbr-brand__name text-white" href="#/">{props.name}</a>
                                 </span>
                             </span>
                         </div>

@@ -1,4 +1,6 @@
 import React from 'react';
+import GoogleMap from 'google-map-react';
+import MapsPlace from './MapsPlace';
 
 const Contact = (props) => (
     <section className="mbr-section mbr-section--relative mbr-section--fixed-size" id="contacts2-57"
@@ -14,7 +16,11 @@ const Contact = (props) => (
                 <div className="col-sm-6">
                     <figure className="mbr-figure mbr-figure--wysiwyg mbr-figure--full-width mbr-figure--no-bg">
                         <div className="mbr-figure__map mbr-figure__map--short">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.3173226333492!2d-38.547684985241006!3d-3.7408746972783753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c7490d77b61d19%3A0xca8338ab6e7cb16d!2sRua+Dom+Joaquim+de+Melo%2C+407+-+Rodolfo+Te%C3%B3filo%2C+Fortaleza+-+CE%2C+60430-660!5e0!3m2!1spt-BR!2sbr!4v1470617591274" width="400" height="300" style={{border:0}}></iframe>
+                            <GoogleMap
+                                center={[-3.7408693, -38.547685]}
+                                zoom={15}>
+                                <MapsPlace className="place" lat={-3.7408693} lng={-38.547685} text={'CE'}/>
+                            </GoogleMap>
                         </div>
                     </figure>
                 </div>
