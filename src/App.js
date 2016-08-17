@@ -36,7 +36,8 @@ const App = React.createClass({
                          subtitle={this.props.data.home.contact.subtitle}
                          address={this.props.data.home.contact.address}
                          about={this.props.data.home.contact.about}
-                         association={this.props.data.home.contact.association}/>
+                         association={this.props.data.home.contact.association}
+                         mapsApiKey={this.props.data.home.mapsApiKey}/>
                 <Footer/>
             </div>
         );

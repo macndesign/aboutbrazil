@@ -7,7 +7,7 @@ class Services extends Component {
         return (
             <div>
                 <CoverSimple cover={this.props.data.customers.header}/>
-                <PartnersMap/>
+                <PartnersMap mapsApiKey={this.props.data.home.mapsApiKey}/>
             </div>
         );
     }

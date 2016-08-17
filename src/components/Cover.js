@@ -17,15 +17,15 @@ class Cover extends Component {
         });
     }
 
+    componentWillMount() {
+        // Cancels repeated action which was set up using setInterval
+        clearInterval(this.interval);
+    }
+
     componentDidMount() {
         if (this.props.imagesRotate) {
             this.interval = setInterval(this.setImage, this.props.imagesRotateTime * 1000);
         }
-    }
-
-    componentWillMount() {
-        // Cancels repeated action which was set up using setInterval
-        clearInterval(this.interval);
     }
 
     componentWillUpdate(nextProps, nextState) {
@@ -33,6 +33,10 @@ class Cover extends Component {
             this.setState({imageIndex: 0});
         }
 
+    }
+
+    componentWillUnmount() {
+        clearInterval(this.interval);
     }
 
     render() {

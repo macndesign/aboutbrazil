@@ -8,6 +8,7 @@ const PartnersMap = (props) => (
             <div className="row">
                 <div style={{height: 550}}>
                     <GoogleMap
+                        bootstrapURLKeys={{key: props.mapsApiKey}}
                         center={[12.779349, 20.331762]}
                         zoom={1}>
                         <MapsPlace lat={-12.844249} lng={-49.453391} text={'BR'}/>

@@ -17,6 +17,7 @@ const Contact = (props) => (
                     <figure className="mbr-figure mbr-figure--wysiwyg mbr-figure--full-width mbr-figure--no-bg">
                         <div className="mbr-figure__map mbr-figure__map--short">
                             <GoogleMap
+                                bootstrapURLKeys={{key: props.mapsApiKey}}
                                 center={[-3.7408693, -38.547685]}
                                 zoom={15}>
                                 <MapsPlace className="place" lat={-3.7408693} lng={-38.547685} text={'CE'}/>
