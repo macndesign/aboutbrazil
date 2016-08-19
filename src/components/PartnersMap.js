@@ -6,15 +6,24 @@ const PartnersMap = (props) => (
     <div style={{background: 'rgb(129, 162, 202)'}}>
         <div className="container">
             <div className="row">
+                <div className="col-sm-12" style={{background: '#fff'}}>
+                    <h2 style={{textAlign: 'center', textTransform: 'uppercase'}}>
+                        {props.title}
+                    </h2>
+                </div>
+            </div>
+            <div className="row">
                 <div style={{height: 550}}>
                     <GoogleMap
                         bootstrapURLKeys={{key: props.mapsApiKey}}
-                        center={[12.779349, 20.331762]}
-                        zoom={1}>
-                        <MapsPlace lat={-12.844249} lng={-49.453391} text={'BR'}/>
-                        <MapsPlace lat={-25.274792} lng={-61.758078} text={'AR'}/>
-                        <MapsPlace lat={-13.870390} lng={-64.570578} text={'BO'}/>
-                        <MapsPlace lat={2.339118} lng={-72.129171} text={'CO'}/>
+                        center={props.center}
+                        zoom={props.zoom}>
+                        {props.markers.map((m) =>
+                            <MapsPlace lat={m.lat}
+                                       lng={m.long}
+                                       text={m.text}
+                                       key={m.text}/>
+                        )}
                     </GoogleMap>
                 </div>
             </div>

@@ -3,5 +3,104 @@
     "image": "http://bestanimations.com/Nature/flowing-waterfall-cliff-green-nature-animated-gif.gif",
     "title": "CLIENTES",
     "subtitle": "Parceiros ao redor do mundo"
-  }
+  },
+  "map": {
+    "title": "Mais do que clientes, temos parceiros em vários países. Conheça um pouco mais.",
+    "center": [12.779349, 20.331762],
+    "zoom": 1,
+    "markers": [
+      {
+        "lat": -12.844249,
+        "long": -49.453391,
+        "text": "BR"
+      },
+      {
+        "lat": -25.274792,
+        "long": -61.758078,
+        "text": "AR"
+      },
+      {
+        "lat": -13.870390,
+        "long": -64.570578,
+        "text": "BO"
+      },
+      {
+        "lat": 2.339118,
+        "long": -72.129171,
+        "text": "CO"
+      }
+    ]
+  },
+  "list": [
+    {
+      "key": 1,
+      "title": "Clientes Internacionais",
+      "list": [
+        {
+          "key": 1,
+          "place": "América",
+          "list": [
+            {
+              "key": 1,
+              "name": "Datos Claros",
+              "country": "Argentina"
+            },
+            {
+              "key": 2,
+              "name": "MSH Consultant",
+              "country": "Bolívia"
+            },
+            {
+              "key": 3,
+              "name": "Goldfarb Inteligence Marketing",
+              "country": "Canadá"
+            }
+          ]
+        },
+        {
+          "key": 2,
+          "place": "Europa",
+          "list": [
+            {
+              "name": "Imagin Prof. Bochmann AG",
+              "country": "Alemanha"
+            },
+            {
+              "name": "MM-Eye GmbH",
+              "country": "Alemanha"
+            },
+            {
+              "name": "Psyma",
+              "country": "Alemanha"
+            },
+            {
+              "name": "M.K.S International",
+              "country": "Belgica"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": 2,
+      "title": "Clientes Nacionais",
+      "list": {
+        "place": "",
+        "list": [
+          {
+            "name": "Datos Claros",
+            "country": "Argentina"
+          },
+          {
+            "name": "MSH Consultant",
+            "country": "Bolívia"
+          },
+          {
+            "name": "Goldfarb Inteligence Marketing",
+            "country": "Canadá"
+          }
+        ]
+      }
+    }
+  ]
 }
