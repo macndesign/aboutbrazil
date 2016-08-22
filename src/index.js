@@ -18,13 +18,17 @@ import './index.css';
         }),
         $.getJSON('/data/customers.json', function(data) {
             pageData.customers = data;
+        }),
+        $.getJSON('/data/why-brazil.json', function(data) {
+            pageData.whyBrazil = data;
         })
     ).then(
         function() {
             if (pageData.home &&
                 pageData.weAre &&
                 pageData.services &&
-                pageData.customers) {
+                pageData.customers &&
+                pageData.whyBrazil) {
                 console.log(pageData);
                 function render() {
                     var route = win.location.hash.substr(1);

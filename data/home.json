@@ -29,7 +29,8 @@
       "list": [
         "http://bestanimations.com/Nature/flowing-waterfall-cliff-green-nature-animated-gif.gif",
         "https://d13yacurqjgara.cloudfront.net/users/121337/screenshots/2572438/mbe_earth.gif",
-        "https://media.giphy.com/media/TKL07SyUBRIpq/giphy.gif"
+        "https://media.giphy.com/media/TKL07SyUBRIpq/giphy.gif",
+        "http://cdn.lifebuzz.com/images/17001/lifebuzz-8f6bfa334fad6d7a58c50dfb3a2b08e8-limit_2000.gif"
       ]
     },
     "title": "O BRASIL É A NOSSA CASA",
@@ -38,13 +39,13 @@
     "buttons": [
       {
         "label": "CONHEÇA-NOS",
-        "link": "#",
+        "link": "#/we-are",
         "title": "",
         "class": "mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-warning"
       },
       {
         "label": "CLIENTES",
-        "link": "#",
+        "link": "#/customers",
         "title": "",
         "class": "mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay"
       }

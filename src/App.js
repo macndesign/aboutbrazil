@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import WeAre from './pages/WeAre';
 import Services from './pages/Services';
 import Customers from './pages/Customers';
+import WhyBrazil from './pages/WhyBrazil';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import './App.css';
@@ -21,6 +22,9 @@ const App = React.createClass({
                 break;
             case '/customers':
                 Child = Customers;
+                break;
+            case '/why-brazil':
+                Child = WhyBrazil;
                 break;
             default:
                 Child = Home;

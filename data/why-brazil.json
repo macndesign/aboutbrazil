@@ -1,0 +1,45 @@
+{
+  "header": {
+    "image": "http://bestanimations.com/Nature/beautiful-wood-bridge-on-water-nature-lake-view-animated-gif.gif",
+    "title": "POR QUE O BRASIL?",
+    "subtitle": "~ estamos na moda ~"
+  },
+  "about": {
+    "title": "BRASIL",
+    "text": [
+      {
+        "key": 1,
+        "col": [
+          "O Brasil é simplesmente um mercado grande demais para ser ignorado. É o quinto maior país do mundo, com uma população de aproximadamente 200,4 milhões de habitantes.",
+          "Sua economia tem destaque mundial, e seu PIB per capta é maior do que o da Índia ou China."
+        ]
+      },
+      {
+        "key": 2,
+        "col": [
+          "Tem recursos naturais em abundância, uma base industrial desenvolvida, altos padrões de pesquisa científica e capital humano substancial.",
+          "O Brasil é um dos cinco países que, juntamente com Rússia, Índia, China e África do Sul, compõe o bloco econômico BRICS."
+        ]
+      }
+    ]
+  },
+  "aboutMap": {
+    "title": "BRASIL NO MAPA",
+    "text": [
+      {
+        "key": 1,
+        "col": [
+          "Localizado abaixo da linha do Equador, faz fronteira com 10 dos outros 12 países da América do Sul.",
+          "Governado sob Regime Democrático, constitui-se em República Federativa e tem uma população de 200,4 milhões de habitantes."
+        ]
+      },
+      {
+        "key": 2,
+        "col": [
+          "Possui clima predominantemente tropical, sendo temperado ao sul, e é berço de belezas naturais únicas e exuberantes.",
+          "Possui Brasília como capital, no centro-oeste do país, e tem seu centro financeiro em São Paulo, na região sudeste."
+        ]
+      }
+    ]
+  }
+}

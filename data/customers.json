@@ -38,7 +38,7 @@
       "list": [
         {
           "key": 1,
-          "place": "América",
+          "place": "AMÉRICA",
           "list": [
             {
               "key": 1,
@@ -59,21 +59,25 @@
         },
         {
           "key": 2,
-          "place": "Europa",
+          "place": "EUROPA",
           "list": [
             {
+              "key": 4,
               "name": "Imagin Prof. Bochmann AG",
               "country": "Alemanha"
             },
             {
+              "key": 5,
               "name": "MM-Eye GmbH",
               "country": "Alemanha"
             },
             {
+              "key": 6,
               "name": "Psyma",
               "country": "Alemanha"
             },
             {
+              "key": 7,
               "name": "M.K.S International",
               "country": "Belgica"
             }
@@ -84,23 +88,29 @@
     {
       "key": 2,
       "title": "Clientes Nacionais",
-      "list": {
-        "place": "",
-        "list": [
-          {
-            "name": "Datos Claros",
-            "country": "Argentina"
-          },
-          {
-            "name": "MSH Consultant",
-            "country": "Bolívia"
-          },
-          {
-            "name": "Goldfarb Inteligence Marketing",
-            "country": "Canadá"
-          }
-        ]
-      }
+      "list": [
+        {
+          "key": 1,
+          "place": "BRASIL",
+          "list": [
+            {
+              "key": 1,
+              "name": "Datos Claros",
+              "country": "Argentina"
+            },
+            {
+              "key": 2,
+              "name": "MSH Consultant",
+              "country": "Bolívia"
+            },
+            {
+              "key": 3,
+              "name": "Goldfarb Inteligence Marketing",
+              "country": "Canadá"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
