@@ -41,5 +41,167 @@
         ]
       }
     ]
+  },
+  "statistics": {
+    "title": "CRITÉRIO BRASIL",
+    "description": "O Critério de Classificação Econômica Brasil enfatiza sua função de estimar o poder de compra das pessoas e famílias urbanas, abandonando a pretensão de classificar a população em termos de “classes sociais”. A divisão de mercado definida abaixo é de classes econômicas.",
+    "grids": [
+      {
+        "caption": "POSSE DE ITENS",
+        "source": "Fonte: ABEP - Associação Brasileira de Empresas de Pesquisa",
+        "headers": [
+            "ITEM",
+            "No. DE ITENS 0 1 2 3 4 ou +"
+          ],
+          "rows": [
+            {
+              "key": 1,
+              "data": [
+                {
+                  "key": 1,
+                  "text": "ITelevisão em cores"
+                },
+                {
+                  "key": 2,
+                  "text": "0 1 2 3 4"
+                }
+              ]
+            },
+            {
+              "key": 2,
+              "data": [
+                {
+                  "key": 3,
+                  "text": "Rádio"
+                },
+                {
+                  "key": 4,
+                  "text": "0 1 2 3 4"
+                }
+              ]
+            },
+            {
+              "key": 3,
+              "data": [
+                {
+                  "key": 5,
+                  "text": "Banheiro"
+                },
+                {
+                  "key": 6,
+                  "text": "0 1 2 3 4"
+                }
+              ]
+            }
+          ]
+      },
+      {
+        "caption": "CORTES DO CRITÉRIO BRASIL",
+        "source": "Fonte: ABEP - Associação Brasileira de Empresas de Pesquisa",
+        "headers": [
+            "CLASSE",
+            "PONTOS"
+          ],
+          "rows": [
+            {
+              "key": 4,
+              "data": [
+                {
+                  "key": 7,
+                  "text": "A1"
+                },
+                {
+                  "key": 8,
+                  "text": "42 - 46"
+                }
+              ]
+            },
+            {
+              "key": 5,
+              "data": [
+                {
+                  "key": 9,
+                  "text": "A2"
+                },
+                {
+                  "key": 10,
+                  "text": "35 - 41"
+                }
+              ]
+            },
+            {
+              "key": 6,
+              "data": [
+                {
+                  "key": 11,
+                  "text": "B1"
+                },
+                {
+                  "key": 12,
+                  "text": "29 - 34"
+                }
+              ]
+            },
+            {
+              "key": 7,
+              "data": [
+                {
+                  "key": 13,
+                  "text": "B2"
+                },
+                {
+                  "key": 14,
+                  "text": "23 - 28"
+                }
+              ]
+            }
+          ]
+      }
+    ],
+    "matrix": [
+      {
+        "caption": "DISTRIBUIÇÃO DAS CLASSES POR PRAÇA",
+        "source": "Fonte: ABEP - Associação Brasileira de Empresas de Pesquisa",
+        "headers": [
+            "GRANDE FORTALEZA",
+            "GRANDE RECIFE",
+            "GRANDE SALVADOR"
+          ],
+          "rows": [
+            {
+              "key": 1,
+              "header": "Classe A1",
+              "data": [
+                "0,5",
+                "0,5",
+                "0,4"
+              ]
+            },
+            {
+              "key": 2,
+              "header": "Classe A2",
+              "data": [
+                "2,6",
+                "3,1",
+                "2,2"
+              ]
+            }
+          ],
+        "totals": [
+          {
+            "key": 1,
+            "value": 100
+          },
+          {
+            "key": 2,
+            "value": 100
+          },
+          {
+            "key": 3,
+            "value": 100
+          }
+        ]
+      }
+    ]
   }
 }
