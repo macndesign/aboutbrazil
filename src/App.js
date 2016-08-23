@@ -10,6 +10,20 @@ import Footer from './components/Footer';
 import './App.css';
 
 const App = React.createClass({
+    getInitialState() {
+        return {
+            lang: 'ptBr'
+        }
+    },
+
+    handleEnglish() {
+        this.setState({lang: 'enUs'});
+    },
+
+    handlePortuguese() {
+        this.setState({lang: 'ptBr'});
+    },
+
     render: function () {
         let Child;
 
@@ -32,16 +46,19 @@ const App = React.createClass({
 
         return (
             <div>
-                <NavBar name={this.props.data.home.navBar.name}
-                        menuItems={this.props.data.home.navBar.menuItems}
-                        contact={this.props.data.home.navBar.contact}/>
-                <Child data={this.props.data} />
-                <Contact title={this.props.data.home.contact.title}
-                         subtitle={this.props.data.home.contact.subtitle}
-                         address={this.props.data.home.contact.address}
-                         about={this.props.data.home.contact.about}
-                         association={this.props.data.home.contact.association}
-                         mapsApiKey={this.props.data.home.mapsApiKey}/>
+                <NavBar name={this.props.data[this.state.lang].home.navBar.name}
+                        menuItems={this.props.data[this.state.lang].home.navBar.menuItems}
+                        contact={this.props.data[this.state.lang].home.navBar.contact}
+                        onEnglishClick={this.handleEnglish}
+                        onPortugueseClick={this.handlePortuguese}
+                        lang={this.state.lang}/>
+                <Child data={this.props.data[this.state.lang]} />
+                <Contact title={this.props.data[this.state.lang].home.contact.title}
+                         subtitle={this.props.data[this.state.lang].home.contact.subtitle}
+                         address={this.props.data[this.state.lang].home.contact.address}
+                         about={this.props.data[this.state.lang].home.contact.about}
+                         association={this.props.data[this.state.lang].home.contact.association}
+                         mapsApiKey={this.props.data[this.state.lang].home.mapsApiKey}/>
                 <Footer/>
             </div>
         );

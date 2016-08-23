@@ -1,0 +1,53 @@
+{
+  "header": {
+    "image": "https://d13yacurqjgara.cloudfront.net/users/121337/screenshots/2572438/mbe_earth.gif",
+    "title": "QUEM SOMOS",
+    "subtitle": "~ excelência em pesquisa ~"
+  },
+  "body": [
+    "Fundada em Salvador (BA) no ano de 2005, a ABOUT BRAZIL disponibiliza aos seus clientes serviços de pesquisa primária e secundária para estudos quantitativos e qualitativos, oferecendo dados precisos para apoiá-los em suas decisões mercadológicas.",
+    "Temos escritórios localizados em Salvador, Fortaleza e São Paulo, e nossa estrutura de campo dispõe de supervisão local em todas as principais cidades do Brasil, tendo, portanto, a capacidade de atender todo o país, bem como os mais diversos países da América Latina."
+  ],
+  "teams": [
+    {
+      "title": "Diretoria Executiva",
+      "list": [
+        {
+          "photo": "http://staging.terraverde.ppg.br/wp-content/uploads/2016/05/Wagner-Rebouças.jpg",
+          "name": "Wagner Rebouças",
+          "about": "Pós-graduação em Administração de Empresas com foco em marketing. 30 anos de experiência no Mercado."
+        }
+      ]
+    },
+    {
+      "title": "Divisão Internacional – Atendimento ao Cliente",
+      "list": [
+        {
+          "photo": "http://staging.terraverde.ppg.br/wp-content/uploads/2016/05/Valentim-Rebouças.jpg",
+          "name": "Valentim Fernandes",
+          "about": "Pós-graduação em Ciências Humanas – Línguas Estrangeiras 15 anos de experiência em Pesquisa de Mercado."
+        },
+        {
+          "photo": "http://staging.terraverde.ppg.br/wp-content/uploads/2016/05/Aragão-Marques.jpg",
+          "name": "Aragão Marques",
+          "about": "Coordenador Internacional de Projetos."
+        }
+      ]
+    },
+    {
+      "title": "Divisão de Operações",
+      "list": [
+        {
+          "photo": "http://staging.terraverde.ppg.br/wp-content/uploads/2016/05/Valentim-Rebouças.jpg",
+          "name": "Valentim Fernandes",
+          "about": "Pós-graduação em Ciências Humanas – Línguas Estrangeiras 15 anos de experiência em Pesquisa de Mercado."
+        },
+        {
+          "photo": "http://staging.terraverde.ppg.br/wp-content/uploads/2016/05/Aragão-Marques.jpg",
+          "name": "Aragão Marques",
+          "about": "Coordenador Internacional de Projetos."
+        }
+      ]
+    }
+  ]
+}

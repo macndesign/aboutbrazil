@@ -5,30 +5,44 @@ import $ from 'jquery';
 import './index.css';
 
 (function (win) {
-    var pageData = {home: {}, weAre: {}};
+    var pageData = {ptBr: {}, enUs: {}};
     $.when(
+        // pt-BR
         $.getJSON('/data/home.json', function(data) {
-            pageData.home = data;
+            pageData.ptBr.home = data;
         }),
         $.getJSON('/data/we-are.json', function(data) {
-            pageData.weAre = data;
+            pageData.ptBr.weAre = data;
         }),
         $.getJSON('/data/services.json', function(data) {
-            pageData.services = data;
+            pageData.ptBr.services = data;
         }),
         $.getJSON('/data/customers.json', function(data) {
-            pageData.customers = data;
+            pageData.ptBr.customers = data;
         }),
         $.getJSON('/data/why-brazil.json', function(data) {
-            pageData.whyBrazil = data;
+            pageData.ptBr.whyBrazil = data;
+        }),
+
+        // en-US
+        $.getJSON('/data/home-en.json', function(data) {
+            pageData.enUs.home = data;
+        }),
+        $.getJSON('/data/we-are-en.json', function(data) {
+            pageData.enUs.weAre = data;
+        }),
+        $.getJSON('/data/services-en.json', function(data) {
+            pageData.enUs.services = data;
+        }),
+        $.getJSON('/data/customers-en.json', function(data) {
+            pageData.enUs.customers = data;
+        }),
+        $.getJSON('/data/why-brazil-en.json', function(data) {
+            pageData.enUs.whyBrazil = data;
         })
     ).then(
         function() {
-            if (pageData.home &&
-                pageData.weAre &&
-                pageData.services &&
-                pageData.customers &&
-                pageData.whyBrazil) {
+            if (pageData) {
                 console.log(pageData);
                 function render() {
                     var route = win.location.hash.substr(1);
