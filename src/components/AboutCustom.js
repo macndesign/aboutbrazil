@@ -3,7 +3,7 @@ import React from 'react';
 const AboutCustom = (props) => (
     <section
         className="mbr-box mbr-section mbr-section--relative mbr-section--fixed-size mbr-section--full-height mbr-section--bg-adapted mbr-parallax-background"
-        id="header1-43" style={{backgroundImage: 'url(http://www.a12.com/files/media/originals/bandeira_do_brasil_2.jpg)'}}>
+        id="header1-43" style={{backgroundImage: `url(${props.about.image})`}}>
         <div className="mbr-box__magnet mbr-box__magnet--sm-padding mbr-box__magnet--center-left">
             <div className="mbr-overlay" style={{opacity: 0.5, backgroundColor: 'rgb(41, 105, 176)'}}/>
             <div className="mbr-box__container mbr-section__container container">
