@@ -8,19 +8,19 @@ import './index.css';
     var pageData = {ptBr: {}, enUs: {}};
     $.when(
         // pt-BR
-        $.getJSON('/data/home.json', function(data) {
+        $.getJSON('https://gist.githubusercontent.com/abmrlucas/d735aac9bab5140986c9e39388516e8c/raw/', function(data) {
             pageData.ptBr.home = data;
         }),
-        $.getJSON('/data/we-are.json', function(data) {
+        $.getJSON('https://gist.githubusercontent.com/abmrlucas/5ce8df11b78dd74672a4d3d5f46ad201/raw/', function(data) {
             pageData.ptBr.weAre = data;
         }),
-        $.getJSON('/data/services.json', function(data) {
+        $.getJSON('https://gist.githubusercontent.com/abmrlucas/f30467a9d82d7cba435a503924fb78a8/raw/', function(data) {
             pageData.ptBr.services = data;
         }),
-        $.getJSON('/data/customers.json', function(data) {
+        $.getJSON('https://gist.githubusercontent.com/abmrlucas/e9a0ca23b973d5d15f28815db4b458cd/raw/', function(data) {
             pageData.ptBr.customers = data;
         }),
-        $.getJSON('/data/why-brazil.json', function(data) {
+        $.getJSON('https://gist.githubusercontent.com/abmrlucas/d46917435ce74580f827f039a018f302/raw/', function(data) {
             pageData.ptBr.whyBrazil = data;
         }),
 
