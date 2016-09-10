@@ -2,14 +2,25 @@ import React from 'react';
 import GoogleMap from 'google-map-react';
 import MapsPlace from './MapsPlace';
 
+const styles = (props) => {
+    return {
+        sectionStyle: {
+            backgroundColor: 'rgb(60, 60, 60)',
+            backgroundImage: `url(${props.image})`,
+            backgroundSize: 'cover',
+            color: '#fff'
+        }
+    }
+};
+
 const Contact = (props) => (
     <section className="mbr-section mbr-section--relative mbr-section--fixed-size" id="contacts2-57"
-             style={{backgroundColor: 'rgb(60, 60, 60)', backgroundImage: `url(${props.image})`}}>
+             style={styles(props).sectionStyle}>
         <div className="mbr-section__container container">
             <div className="row" style={{paddingTop: 20, color: '#fff', textAlign: 'center'}}>
                 <div className="col-sm-12">
-                    <h3 style={{color: '#ccc'}}>{props.title}</h3>
-                    <h3 style={{fontSize: '2rem', color: '#aaa'}}>{props.subtitle}</h3>
+                    <h3>{props.title}</h3>
+                    <h3 style={{fontSize: '2rem'}}>{props.subtitle}</h3>
                 </div>
             </div>
             <div className="mbr-contacts mbr-contacts--wysiwyg row" style={{paddingTop: 20}}>
@@ -30,7 +41,7 @@ const Contact = (props) => (
                         <div className="col-sm-5 col-sm-offset-1">
                             <p className="mbr-contacts__text">
                                 <strong>{props.address.title}</strong><br/>
-                                <a style={{color: '#ddd', textDecoration: 'none'}} href={'mailto:' + props.email}>
+                                <a style={{color: '#fff', textDecoration: 'none'}} href={'mailto:' + props.email}>
                                     {props.email}
                                 </a><br/>
                                 {props.address.list.map((address) =>

@@ -9,6 +9,7 @@ class Services extends Component {
             <div>
                 <CoverSimple cover={this.props.data.customers.header}/>
                 <PartnersMap title={this.props.data.customers.map.title}
+                             image={this.props.data.customers.map.image}
                              center={this.props.data.customers.map.center}
                              zoom={this.props.data.customers.map.zoom}
                              markers={this.props.data.customers.map.markers}

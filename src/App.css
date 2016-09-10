@@ -9,3 +9,19 @@
   font-size: 24px;
   font-family: 'Aller', sans-serif;
 }
+
+.mbr-contacts {
+  color: #fff;
+}
+
+#msg-box5-46 .mbr-header__text {
+    color: #000;
+}
+
+#msg-box5-46 .mbr-article {
+    color: #000;
+}
+
+.mbr-section--full-height {
+    height: 120vh;
+}

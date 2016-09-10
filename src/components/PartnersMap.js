@@ -2,8 +2,18 @@ import React from 'react';
 import GoogleMap from 'google-map-react';
 import MapsPlace from './MapsPlace';
 
+const styles = (props) => {
+    return {
+        sectionStyle: {
+            backgroundColor: 'rgb(129, 162, 202)',
+            backgroundImage: `url(${props.image})`,
+            backgroundSize: 'cover'
+        }
+    }
+};
+
 const PartnersMap = (props) => (
-    <div style={{background: 'rgb(129, 162, 202)'}}>
+    <div style={styles(props).sectionStyle}>
         <div className="container">
             <div className="row">
                 <div className="col-sm-12" style={{background: '#fff'}}>
