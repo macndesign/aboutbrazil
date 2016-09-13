@@ -6,7 +6,6 @@ import Services from './pages/Services';
 import Customers from './pages/Customers';
 import WhyBrazil from './pages/WhyBrazil';
 import Contact from './components/Contact';
-import Footer from './components/Footer';
 import './App.css';
 
 const App = React.createClass({

@@ -25,19 +25,19 @@ import './index.css';
         }),
 
         // en-US
-        $.getJSON('/data/home-en.json', function(data) {
+        $.getJSON('https://gist.githubusercontent.com/abmrlucas/4e86d41ac26b362f297bd32b922feec9/raw/', function(data) {
             pageData.enUs.home = data;
         }),
-        $.getJSON('/data/we-are-en.json', function(data) {
+        $.getJSON('https://gist.githubusercontent.com/abmrlucas/2ca86190c2f2481654fe710b0dd020c9/raw/', function(data) {
             pageData.enUs.weAre = data;
         }),
-        $.getJSON('/data/services-en.json', function(data) {
+        $.getJSON('https://gist.githubusercontent.com/abmrlucas/b651329c03eddda70de5dc0360957b26/raw/', function(data) {
             pageData.enUs.services = data;
         }),
-        $.getJSON('/data/customers-en.json', function(data) {
+        $.getJSON('https://gist.githubusercontent.com/abmrlucas/803bbe100185bf4aa437d6e40c080412/raw/', function(data) {
             pageData.enUs.customers = data;
         }),
-        $.getJSON('/data/why-brazil-en.json', function(data) {
+        $.getJSON('https://gist.githubusercontent.com/abmrlucas/4b2e46c8bd770c9e4509b67f20205f72/raw/', function(data) {
             pageData.enUs.whyBrazil = data;
         })
     ).then(
