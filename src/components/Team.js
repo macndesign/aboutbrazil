@@ -15,11 +15,11 @@ const Team = (props) => (
                                 backgroundSize: 'cover',
                                 borderTopLeftRadius: 33,
                                 borderBottomRightRadius: 33,
-                                height: 192
+                                height: 380
                             }}>
                             </div>
-                            <h3>{member.name}</h3>
-                            <blockquote style={{padding: '0 1rem'}}>
+                            <h3 style={{height: '2em'}}>{member.name}</h3>
+                            <blockquote style={{padding: '0 1rem', minHeight: '3em'}}>
                                 <em style={{fontSize: '1.5rem'}}>{member.about}</em>
                             </blockquote>
                         </li>)}
