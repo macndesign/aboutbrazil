@@ -23,6 +23,10 @@ const App = React.createClass({
         this.setState({lang: 'ptBr'});
     },
 
+    handleSpanish() {
+        this.setState({lang: 'sp'});
+    },
+
     render: function () {
         let Child;
 
@@ -50,6 +54,7 @@ const App = React.createClass({
                         contact={this.props.data[this.state.lang].home.navBar.contact}
                         onEnglishClick={this.handleEnglish}
                         onPortugueseClick={this.handlePortuguese}
+                        onSpanishClick={this.handleSpanish}
                         lang={this.state.lang}/>
                 <Child data={this.props.data[this.state.lang]} />
                 <Contact title={this.props.data[this.state.lang].home.contact.title}

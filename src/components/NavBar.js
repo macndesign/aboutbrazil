@@ -32,8 +32,11 @@ const NavBar = React.createClass({
                                                         'solid 1px #fff' : 'transparent'}}
                                                  alt="en-US"/>&nbsp;
                                         </span>
-                                        <span>
+                                        <span style={{cursor: 'pointer'}}
+                                              onClick={this.props.onSpanishClick}>
                                             <img src='/assets/images/es-icon.png'
+                                                 style={{border: this.props.lang === 'sp' ?
+                                                        'solid 1px #fff' : 'transparent'}}
                                                  alt="es-ES"/>
                                         </span>
                                     </div>

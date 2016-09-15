@@ -5,9 +5,9 @@ import $ from 'jquery';
 import './index.css';
 
 (function (win) {
-    var pageData = {ptBr: {}, enUs: {}};
+    var pageData = {ptBr: {}, enUs: {}, sp: {}};
     $.when(
-        // pt-BR
+        // pt-BR Portuguese
         $.getJSON('https://gist.githubusercontent.com/abmrlucas/d735aac9bab5140986c9e39388516e8c/raw/', function(data) {
             pageData.ptBr.home = data;
         }),
@@ -24,7 +24,7 @@ import './index.css';
             pageData.ptBr.whyBrazil = data;
         }),
 
-        // en-US
+        // en-US English
         $.getJSON('https://gist.githubusercontent.com/abmrlucas/4e86d41ac26b362f297bd32b922feec9/raw/', function(data) {
             pageData.enUs.home = data;
         }),
@@ -39,6 +39,23 @@ import './index.css';
         }),
         $.getJSON('https://gist.githubusercontent.com/abmrlucas/4b2e46c8bd770c9e4509b67f20205f72/raw/', function(data) {
             pageData.enUs.whyBrazil = data;
+        }),
+
+        // sp Spanish
+        $.getJSON('https://gist.githubusercontent.com/abmrlucas/af1a5b71fcbd81e5ecad8499a757909c/raw/', function(data) {
+            pageData.sp.home = data;
+        }),
+        $.getJSON('https://gist.githubusercontent.com/abmrlucas/bf557a06ec9cfecdc0144c4f7ab53e02/raw/', function(data) {
+            pageData.sp.weAre = data;
+        }),
+        $.getJSON('https://gist.githubusercontent.com/abmrlucas/ed38a68c4ae416e8bd5fe8538271d366/raw/', function(data) {
+            pageData.sp.services = data;
+        }),
+        $.getJSON('https://gist.githubusercontent.com/abmrlucas/020c2edee47629d413f2387c7b60976e/raw/', function(data) {
+            pageData.sp.customers = data;
+        }),
+        $.getJSON('https://gist.githubusercontent.com/abmrlucas/981b840c82200fb2d51ea13327817099/raw/', function(data) {
+            pageData.sp.whyBrazil = data;
         })
     ).then(
         function() {
