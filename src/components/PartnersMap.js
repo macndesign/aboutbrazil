@@ -32,7 +32,7 @@ const PartnersMap = (props) => (
                             <MapsPlace lat={m.lat}
                                        lng={m.long}
                                        text={m.text}
-                                       key={m.text}/>
+                                       key={m.lat}/>
                         )}
                     </GoogleMap>
                 </div>

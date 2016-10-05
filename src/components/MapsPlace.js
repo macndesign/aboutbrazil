@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 const markerStyle = {
     height: 64,
     width: 64,
-    backgroundImage: "url('./assets/images/maps-marker-1.png')",
+    backgroundImage: "url('./assets/images/red-flag-marker.png')",
     backgroundSize: 'cover'
 };
 
