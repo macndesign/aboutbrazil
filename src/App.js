@@ -64,6 +64,7 @@ const App = React.createClass({
                          address={this.props.data[this.state.lang].home.contact.address}
                          about={this.props.data[this.state.lang].home.contact.about}
                          association={this.props.data[this.state.lang].home.contact.association}
+                         maps={this.props.data[this.state.lang].home.contact.maps}
                          mapsApiKey={this.props.data[this.state.lang].home.mapsApiKey}/>
             </div>
         );

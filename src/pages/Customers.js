@@ -12,6 +12,7 @@ class Services extends Component {
                              image={this.props.data.customers.map.image}
                              center={this.props.data.customers.map.center}
                              zoom={this.props.data.customers.map.zoom}
+                             marker={this.props.data.home.contact.maps.marker}
                              markers={this.props.data.customers.map.markers}
                              mapsApiKey={this.props.data.home.mapsApiKey}/>
                 <CustomersTable list={this.props.data.customers.list}/>

@@ -23,7 +23,7 @@
   },
   "cover": {
     "image": {
-      "rotate": true,
+      "rotate": false,
       "rotateTime": 5,
       "opacity": 0.5,
       "list": [
@@ -116,6 +116,19 @@
     ]
   },
   "contact": {
+    "maps": {
+      "marker": "http://sleders.com/wp-content/uploads/leaflet-maps-marker-icons/Flag2LeftRed_256x256-32.png",
+      "place": {
+        "lat": -3.7408693,
+        "long": -38.547685
+      },
+      "center": {
+        "lat": -3.7408693,
+        "long": -38.547685
+      },
+      "zoom": 15,
+      "text": "CE"
+    },
     "image": "http://www.motionbackgroundsforfree.com/wp-content/uploads/2012/02/Screen-shot-2012-02-16-at-10.00.01-AM.png",
     "email": "abmr@aboutbrazilmr.com",
     "title": "Descubra mais sobre o poder de uma pesquisa bem excutada",
