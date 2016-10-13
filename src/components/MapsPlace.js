@@ -3,7 +3,8 @@ import React, {Component} from 'react';
 const markerStyle = {
     height: 64,
     width: 64,
-    backgroundSize: 'cover'
+    backgroundSize: 'cover',
+    marginTop: -64
 };
 
 class MapsPlace extends Component {
