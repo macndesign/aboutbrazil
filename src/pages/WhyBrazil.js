@@ -2,109 +2,6 @@ import React, {Component} from 'react';
 import CoverSimple from '../components/CoverSimple';
 import AboutCustom from '../components/AboutCustom';
 
-const MatrixGrid = (props) => (
-    <div className="thumbnail">
-        <div className="caption">
-            <div>
-                <div className="col-sm-12">
-                    <h2 style={{textAlign: 'left', height: '2em'}}>{props.caption}</h2>
-                </div>
-                <div className="col-sm-12">
-                    <table className="table">
-                        <thead>
-                        <tr>
-                            {props.rows[0].header && <th key={'empty'}>&nbsp;</th>}
-                            {props.headers.map((header) =>
-                                <th key={header}>{header}</th>
-                            )}
-                        </tr>
-                        </thead>
-                        <tbody>
-                        {props.rows.map((row) =>
-                            <tr key={row.key}>
-                                {row.header && <th key={0}>{row.header}</th>}
-                                {row.data.map((cel) =>
-                                    <td style={{textAlign: 'left'}} key={cel.key}>{cel.text}</td>
-                                )}
-                            </tr>
-                        )}
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
-    </div>
-);
-
-const Grid = (props) => (
-    <div className="thumbnail">
-        <div className="caption">
-            <div>
-                <div className="col-sm-12">
-                    <h3 style={{textAlign: 'left', height: '2em'}}>{props.caption}</h3>
-                </div>
-                <div className="col-sm-12">
-                    <table className="table">
-                        <thead>
-                        <tr>
-                            {props.headers.map((header) =>
-                                <th key={header}>{header}</th>
-                            )}
-                        </tr>
-                        </thead>
-                        <tbody>
-                        {props.rows.map((row) =>
-                            <tr key={row.key}>
-                                {row.data.map((cel) =>
-                                    <td style={{textAlign: 'left'}} key={cel.key}>{cel.text}</td>
-                                )}
-                            </tr>
-                        )}
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
-    </div>
-);
-
-const StatisticsGrid = (props) => (
-    <div>
-        <section className="content-2 col-2" style={{backgroundColor: 'rgb(255, 255, 255)'}}>
-            <div className="container">
-                <div className="row">
-                    {props.grids.map((grid) =>
-                        <div key={grid.caption}>
-                            <Grid caption={grid.caption} headers={grid.headers} rows={grid.rows}/>
-                            <div className="thumbnail">
-                                <div className="caption">
-                                    <div className="col-sm-12" style={{textAlign: 'left'}}>{grid.source}</div>
-                                </div>
-                            </div>
-                        </div>
-                    )}
-                </div>
-            </div>
-        </section>
-        <section className="content-2 col-1" style={{backgroundColor: 'rgb(255, 255, 255)', paddingTop: 0}}>
-            <div className="container">
-                <div className="row">
-                    {props.matrix.map((grid) =>
-                        <div key={grid.caption}>
-                            <MatrixGrid caption={grid.caption} headers={grid.headers} rows={grid.rows}/>
-                            <div className="thumbnail">
-                                <div className="caption">
-                                    <div className="col-sm-12" style={{textAlign: 'left'}}>{grid.source}</div>
-                                </div>
-                            </div>
-                        </div>
-                    )}
-                </div>
-            </div>
-        </section>
-    </div>
-);
-
 class WhyBrazil extends Component {
     render() {
         return (
@@ -120,12 +17,34 @@ class WhyBrazil extends Component {
                                 <h2>{this.props.data.whyBrazil.statistics.title}</h2>
                                 <p>{this.props.data.whyBrazil.statistics.description}</p>
                             </div>
+                            <div className="col-sm-12">
+                                <h2>{this.props.data.whyBrazil.statistics.grid.classDistributions.title}</h2>
+                                <div className="row">
+                                    <img className="col-sm-12"
+                                         alt={this.props.data.whyBrazil.statistics.grid.classDistributions.title}
+                                         src={this.props.data.whyBrazil.statistics.grid.classDistributions.image}/>
+                                </div>
+                            </div>
+                            <div className="col-md-2 col-sm-12">
+                                <h2>{this.props.data.whyBrazil.statistics.grid.cuts.title}</h2>
+                                <div className="row">
+                                    <img className="col-sm-12"
+                                         alt={this.props.data.whyBrazil.statistics.grid.cuts.title}
+                                         src={this.props.data.whyBrazil.statistics.grid.cuts.image}/>
+                                </div>
+                            </div>
+                            <div className="col-md-10 col-sm-12">
+                                <h2>{this.props.data.whyBrazil.statistics.grid.possession.title}</h2>
+                                <div className="row">
+                                    <img className="col-sm-12"
+                                         alt={this.props.data.whyBrazil.statistics.grid.possession.title}
+                                         src={this.props.data.whyBrazil.statistics.grid.possession.image}/>
+                                </div>
+                            </div>
                         </div>
+                        <br/>
                     </div>
                 </section>
-
-                <StatisticsGrid grids={this.props.data.whyBrazil.statistics.grids}
-                                matrix={this.props.data.whyBrazil.statistics.matrix}/>
             </div>
         );
     }
