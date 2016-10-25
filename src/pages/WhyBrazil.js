@@ -33,14 +33,6 @@ class WhyBrazil extends Component {
                                          src={this.props.data.whyBrazil.statistics.grid.cuts.image}/>
                                 </div>
                             </div>
-                            <div className="col-md-10 col-sm-12">
-                                <h2>{this.props.data.whyBrazil.statistics.grid.possession.title}</h2>
-                                <div className="row">
-                                    <img className="col-sm-12"
-                                         alt={this.props.data.whyBrazil.statistics.grid.possession.title}
-                                         src={this.props.data.whyBrazil.statistics.grid.possession.image}/>
-                                </div>
-                            </div>
                         </div>
                         <br/>
                     </div>
