@@ -4,6 +4,20 @@ import AboutCustom from '../components/AboutCustom';
 
 class WhyBrazil extends Component {
     render() {
+        var itemStructure = (pathData) => {
+            if (pathData) {
+                return (
+                    <div>
+                        <h2>{pathData.title}</h2>
+                        <div className="row">
+                            <img className="col-sm-12"
+                                 alt={pathData.title}
+                                 src={pathData.image}/>
+                        </div>
+                    </div>
+                )
+            }
+        };
         return (
             <div>
                 <CoverSimple cover={this.props.data.whyBrazil.header}/>
@@ -18,20 +32,13 @@ class WhyBrazil extends Component {
                                 <p>{this.props.data.whyBrazil.statistics.description}</p>
                             </div>
                             <div className="col-sm-12">
-                                <h2>{this.props.data.whyBrazil.statistics.grid.classDistributions.title}</h2>
-                                <div className="row">
-                                    <img className="col-sm-12"
-                                         alt={this.props.data.whyBrazil.statistics.grid.classDistributions.title}
-                                         src={this.props.data.whyBrazil.statistics.grid.classDistributions.image}/>
-                                </div>
+                                {itemStructure(this.props.data.whyBrazil.statistics.grid.classDistributions)}
                             </div>
-                            <div className="col-md-2 col-sm-12">
-                                <h2>{this.props.data.whyBrazil.statistics.grid.cuts.title}</h2>
-                                <div className="row">
-                                    <img className="col-sm-12"
-                                         alt={this.props.data.whyBrazil.statistics.grid.cuts.title}
-                                         src={this.props.data.whyBrazil.statistics.grid.cuts.image}/>
-                                </div>
+                            <div className="col-md-6 col-sm-12">
+                                {itemStructure(this.props.data.whyBrazil.statistics.grid.cuts)}
+                            </div>
+                            <div className="col-md-6 col-sm-12">
+                                {itemStructure(this.props.data.whyBrazil.statistics.grid.map)}
                             </div>
                         </div>
                         <br/>
