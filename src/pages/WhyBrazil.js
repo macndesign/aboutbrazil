@@ -34,10 +34,10 @@ class WhyBrazil extends Component {
                             <div className="col-sm-12">
                                 {itemStructure(this.props.data.whyBrazil.statistics.grid.classDistributions)}
                             </div>
-                            <div className="col-md-6 col-sm-12">
+                            <div className="col-md-4 col-sm-12">
                                 {itemStructure(this.props.data.whyBrazil.statistics.grid.cuts)}
                             </div>
-                            <div className="col-md-6 col-sm-12">
+                            <div className="col-md-6 col-md-offset-2 col-sm-12">
                                 {itemStructure(this.props.data.whyBrazil.statistics.grid.map)}
                             </div>
                         </div>
