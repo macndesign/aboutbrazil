@@ -68,6 +68,18 @@
       "body": "Tratamento dos dados crus para que se gere as informações pertinentes tratadas, organizadas e compreensíveis do estudo realizado."
     }
   ],
+  "missions": [
+    {
+      "icon": "/assets/images/mis.png",
+      "title": "MISSÃO",
+      "body": "Nosso objetivo é projetar estudos de logística de acordo com as necessidades dos clientes, auxiliando empresas de produtos e serviços na tomada de decisão."
+    },
+    {
+      "icon": "/assets/images/viz.png",
+      "title": "VISÃO",
+      "body": "Ser reconhecida como uma empresa de inteligência de Mercado, capaz de identificar tendências comportamentais e adequar as técnicas de pesquisa à evolução do consumidor."
+    }
+  ],
   "about": {
     "photo": "assets/images/imac-605421-1920-1920x1275-41.jpg",
     "title": "NÓS SOMOS A ABOUT BRAZIL",

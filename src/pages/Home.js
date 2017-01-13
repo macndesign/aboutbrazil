@@ -16,12 +16,14 @@ class Home extends Component {
                        subtitle={this.props.data.home.cover.subtitle}
                        body={this.props.data.home.cover.body}
                        buttons={this.props.data.home.cover.buttons}/>
-                <FeaturesLite features={this.props.data.home.features} />
+                <FeaturesLite features={this.props.data.home.features} colCssClass="col-3" />
                 <AboutPhoto photo={this.props.data.home.about.photo}
                             title={this.props.data.home.about.title}
                             subtitle={this.props.data.home.about.subtitle}
                             body={this.props.data.home.about.body}
                             button={this.props.data.home.about.button} />
+                {/* Mission and Vision */}
+                {this.props.data.home.missions && <FeaturesLite features={this.props.data.home.missions} colCssClass="col-2" />}
                 <DepositionSlider title={this.props.data.home.deposition.title}
                                   list={this.props.data.home.deposition.list} />
             </div>

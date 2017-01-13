@@ -11,6 +11,9 @@ import './index.css';
         $.getJSON('https://gist.githubusercontent.com/abmrlucas/d735aac9bab5140986c9e39388516e8c/raw/', function(data) {
             pageData.ptBr.home = data;
         }),
+        // $.getJSON('/data/home.json', function(data) {
+        //     pageData.ptBr.home = data;
+        // }),
         $.getJSON('https://gist.githubusercontent.com/abmrlucas/5ce8df11b78dd74672a4d3d5f46ad201/raw/', function(data) {
             pageData.ptBr.weAre = data;
         }),
@@ -28,6 +31,9 @@ import './index.css';
         $.getJSON('https://gist.githubusercontent.com/abmrlucas/4e86d41ac26b362f297bd32b922feec9/raw/', function(data) {
             pageData.enUs.home = data;
         }),
+        // $.getJSON('/data/home-en.json', function(data) {
+        //     pageData.enUs.home = data;
+        // }),
         $.getJSON('https://gist.githubusercontent.com/abmrlucas/2ca86190c2f2481654fe710b0dd020c9/raw/', function(data) {
             pageData.enUs.weAre = data;
         }),

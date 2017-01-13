@@ -12,7 +12,7 @@ class WeAre extends Component {
                 <CoverSimple cover={this.props.data.weAre.header}/>
                 <TextSimple body={this.props.data.weAre.body}/>
                 <Team teams={this.props.data.weAre.teams}/>
-                <FeaturesLite features={this.props.data.home.features} />
+                <FeaturesLite features={this.props.data.home.features} colCssClass="col-3" />
                 <AboutPhoto photo={this.props.data.home.about.photo}
                             title={this.props.data.home.about.title}
                             subtitle={this.props.data.home.about.subtitle}
