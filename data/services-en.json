@@ -1,56 +1,62 @@
 {
   "header": {
-    "image": "https://media.giphy.com/media/TKL07SyUBRIpq/giphy.gif",
-    "title": "CONHEÇA NOSSOS SERVIÇOS",
-    "subtitle": "trabalhamos diariamente para entregar nosso melhor em"
+    "image": "http://imageshack.com/a/img921/1713/RfsZ0Q.png",
+    "title": "LEARN MORE ABOUT OUR SERVICES",
+    "subtitle": "We work every day to deliver our best in:"
   },
   "list": [
     {
       "icon": "/assets/images/clear-350x350-99.png",
-      "title": "PESQUISA QUALITATIVA",
-      "body": "Garantimos um recrutamento sério e eficaz de alta qualidade para atender às necessidades do cliente. Usamos técnicas de observação, abordagem e investigação para realizar entrevistas em profundidade e Focus Groups que resultam em um padrão definido e que propiciam ao cliente diretrizes para suas tomadas de decisão.",
+      "title": "QUALITATIVE RESEARCH",
+      "body": "We guarantee a serious and effective high-quality recruiting to meet the client’s requirements. We use observation, approach and investigation techniques to carry out In-Depth interviews and Focus Groups which result in a definite pattern and provide guidelines to our customers for their decision making.",
       "more": {
-        "title": "Os serviços oferecidos nesta categoria incluem:",
+        "title": "The services offered under this category include:",
         "items": [
-          "Focus Groups presenciais e on-line",
-          "Entrevistas em Profundidade",
-          "Etnográficas",
-          "Recrutamento",
-          "Cliente Misterioso"
+          "Face-to-face and online focus groups",
+          "Bulletin Boards",
+          "In-Depth Interviews (TDI’s & IDI’s)",
+          "Ethnographies",
+          "Recruitment",
+          "Mystery Shopper",
+          "Moderation",
+          "Topline and/or full reports",
+          "Simultaneous and / or consecutive translation",
+          "Transcription of audios and/or videos"
         ]
       }
     },
     {
       "icon": "/assets/images/reminders-350x350-18.png",
-      "title": "PESQUISA QUANTITATIVA",
-      "body": "Nossos estudos quantitativos são baseados em questionários pré-estruturados que atingem o ponto-alvo visado pelo cliente, oferecendo-lhes logísticas que lhes permitem facilmente identificar as necessidades e expectativas de seus consumidores.",
+      "title": "QUANTITATIVE RESEARCH",
+      "body": "Our quantitative research studies are based on pre-structured questionnaires which reach the target point aimed by the client. We offer our clients logistics which allows them to easily identify their consumers’ needs and expectations.",
       "more": {
-        "title": "Os serviços oferecidos nesta categoria incluem:",
+        "title": "The services offered under this category include:",
         "items": [
           "CAPI",
           "CATI",
           "CAWI",
-          "Telephone",
-          "Street/Mall Intercept",
-          "CLT",
-          "On-line",
-          "PAPI"
+          "PAPI",
+          "Phone interviews",
+          "Online Interviews",
+          "Flow point / Street or Mall intercept",
+          "Central Location",
+          "Recruitment",
+          "Mystery Shopper"
         ]
       }
     },
     {
       "icon": "/assets/images/phone-350x350-12.png",
-      "title": "PROCESSAMENTO DE DADOS",
-      "body": "Oferecemos serviços de processamento de dados utilizando ferramentas estatísticas consagradas no mercado e desenvolvemos soluções de software customizadas de acordo com a necessidade de cada cliente.",
+      "title": "DATA PROCESSING",
+      "body": "We offer data processing services using well recognized statistics tools and develop software solutions in accordance to each customer’s needs.",
       "more": {
-        "title": "Os serviços oferecidos nesta categoria incluem:",
+        "title": "The services offered under this category include:",
         "items": [
-          "Digitação",
-          "Codificação",
-          "Etnográficas",
-          "Consistência",
-          "Banco de dados crus",
-          "Relatório parcial e/ou completo"
+          "Data entry",
+          "Coding of open ends",
+          "Data cleaning /Consistency",
+          "Raw data",
+          "Processed data"
         ]
       }
     }

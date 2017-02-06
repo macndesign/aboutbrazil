@@ -27,67 +27,58 @@
       "rotateTime": 5,
       "opacity": 0.5,
       "list": [
-        "http://bestanimations.com/Nature/flowing-waterfall-cliff-green-nature-animated-gif.gif",
-        "https://d13yacurqjgara.cloudfront.net/users/121337/screenshots/2572438/mbe_earth.gif",
-        "https://media.giphy.com/media/TKL07SyUBRIpq/giphy.gif",
-        "http://cdn.lifebuzz.com/images/17001/lifebuzz-8f6bfa334fad6d7a58c50dfb3a2b08e8-limit_2000.gif"
+        "http://imageshack.com/a/img923/1738/6MjuhZ.png"
       ]
     },
-    "title": "BRAZIL IS OUR HOUSE",
-    "subtitle": "WE LOVE OUR COUNTRY",
-    "body": "Meet us, into our homes.",
+    "title": "BRAZIL IS OUR HOME",
+    "subtitle": "WE LOVE BEING FROM BRAZIL",
+    "body": "Get to know us. Come in!",
     "buttons": [
       {
-        "label": "ABOUT US",
+        "label": "LEARN MORE",
         "link": "#/we-are",
         "title": "",
         "class": "mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-warning"
-      },
-      {
-        "label": "CUSTOMERS",
-        "link": "#/customers",
-        "title": "",
-        "class": "mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay"
       }
     ]
   },
   "features": [
     {
       "icon": "/assets/images/clear-350x350-99.png",
-      "title": "Pesquisa Qualitativa",
-      "body": "Estudo exploratório, não conclusivo e não estatístico que identifica e analisa profundamente dados não mensuráveis (sentimentos, sensações e percepções) de um determinado grupo de indivíduos em relação à um problema específico."
+      "title": "Qualitative Research",
+      "body": "Exploratory research. Search for understanding and deepening of behaviors, attitudes and motivations."
     },
     {
       "icon": "/assets/images/reminders-350x350-18.png",
-      "title": "Pesquisa Quantitativa",
-      "body": "Busca evidência conclusiva baseada em amostras grandes e representativas. Suas descobertas podem ser tratadas como conclusivas e utilizadas para recomendar um curso de ação inicial."
+      "title": "Quantitative Research",
+      "body": "It measures the focus of the study. It allows the use of statistical resources in the interpretation of data."
     },
     {
       "icon": "/assets/images/phone-350x350-12.png",
-      "title": "Processamento de dados",
-      "body": "Tratamento dos dados crus para que se gere as informações pertinentes tratadas, organizadas e compreensíveis do estudo realizado."
+      "title": "Data processing",
+      "body": "Treatment of raw data for the creation of organized and consolidated information."
     }
   ],
   "missions": [
     {
-      "icon": "/assets/images/clear-350x350-99.png",
-      "title": "Mission",
-      "body": "Nosso objetivo é projetar estudos de logística de acordo com as necessidades dos clientes, auxiliando empresas de produtos e serviços na tomada de decisão."
+      "icon": "http://imageshack.com/a/img922/1168/4FLpgA.png",
+      "title": "MISSION",
+      "body": "Our goal is to design logistics studies according to our customers' needs, helping companies of products and services in the decision making process."
     },
     {
-      "icon": "/assets/images/reminders-350x350-18.png",
-      "title": "Vision",
-      "body": "Ser reconhecida como uma empresa de inteligência de Mercado, capaz de identificar tendências comportamentais e adequar as técnicas de pesquisa à evolução do consumidor."
+      "icon": "http://imageshack.com/a/img921/5363/YusUxy.png",
+      "title": "VISION",
+      "body": "To be recognized as a market intelligence company, capable of identifying behavioral trends and tailoring research techniques to consumer evolution."
     }
   ],
   "about": {
-    "photo": "assets/images/imac-605421-1920-1920x1275-41.jpg",
-    "title": "NÓS SOMOS A ABOUT BRAZIL",
-    "subtitle": "Uma empresa apaixonada pelo que faz",
-    "body": "Somos uma empresa de pesquisa de mercado, sediada no Brasil, especializada em estudos quantitativos e qualitativos. Nosso objetivo é realizar estudos mercadológicos, auxiliando empresas de produtos e serviços de diversos países no processo de tomada de decisões de marketing e/ou comerciais dentro de suas áreas de atuação.Com amplo conhecimento do mercado brasileiro e latino-americano, a About Brazil se destaca por elaborar e executar projetos de alto nível, garantindo elevado índice de satisfação aos seus clientes. Isso graças a vasta experiência e preparo de sua equipe. Dispomos de amplo alcance em termos de serviços de pesquisa de mercado, cobrindo Brasil e América Latina, contando com parceiros locais em diversos países deste continente."
+    "photo": "http://imageshack.com/a/img924/2220/FV4jgy.jpg",
+    "title": "WE ARE ABOUT BRAZIL",
+    "subtitle": "A company in love with what it does",
+    "body": "We are a Market Research company based in Brazil specialized in quantitative and qualitative studies. Our goal is to carry out market studies, helping companies of products and services in several countries in their process of taking marketing and/or trading decisions within their areas of operations. With extensive knowledge of Brazilian and Latin American markets, About Brazil stands out for designing and implementing great-value projects, ensuring high level of satisfaction to its customers. This is thanks to the extensive experience and training of its staff. We have wide range in terms of market research services, covering Brazil and Latin America, with local partners in many countries in this continent."
   },
   "deposition": {
-    "title": "DEPOIMENTOS",
+    "title": "TESTIMONIALS",
     "list": [
       {
         "name": "Claudia Carrasco",
@@ -96,7 +87,7 @@
           "name": "Clearstate",
           "link": "http://clearstate.com/"
         },
-        "text": "Nós estamos muito satisfeitos com a qualidade do trabalho da sua empresa e a responsividade de vocês. O prazer é todo nosso!"
+        "text": "\"Once again we are very pleased with ABMR's work and deeply appreciate the effort placed to finish the data on time, how flexible the team has been throughout the whole process and going beyond what was agreed to deliver quality work.\""
       },
       {
         "name": "Tammy Ciliberti",
@@ -105,16 +96,25 @@
           "name": "Q RESEARCH SOLUTIONS",
           "link": "http://www.qrsglobal.com/"
         },
-        "text": "No Brasil, nós temos parceria com a Abuot Brazil e eles são fabulosos!"
+        "text": "\"Thank you for sending before the deadline. You are a wonderful partner.\""
+      },
+      {
+        "name": "Flavio Cursino",
+        "position": "LATAM FIELDWORK MANAGER",
+        "company": {
+          "name": "MMR RESEARCH",
+          "link": "http://www.mmr-research.com/"
+        },
+        "text": "\"The communication between the Fieldwork Procurement team in MMR and About Brazil has been great. Thank you and your team.\""
       },
       {
         "name": "Danilo Weiner",
         "position": "EQUIPE DE INOVAÇÃO DE PRODUTOS",
         "company": {
           "name": "SAMSUNG",
-          "link": ""
+          "link": "http://www.samsung.com/br/home/"
         },
-        "text": "Queria agradecer o empenho de vocês em terem conseguido viabilizar todas as home-visits, shop along e entrevistas com experts com uma super flexibilidade e, principalmente, com acurácia, já que considero que conseguimos um excelente mix de perfis na home-visits e os 2 experts que partiram de vocês foram não menos que excelentes."
+        "text": "\"I’d like to thank you for your commitment to have managed to enable all home-visits, shop along and interviews with experts with super flexibility and, especially, with accuracy, since I consider that we got a great mix of profiles in-home visits and the 2 experts from your side were no less than excellent.\""
       },
       {
         "name": "Zach Simmons",
@@ -123,33 +123,33 @@
           "name": "Discuss",
           "link": "http://www.discuss.io/"
         },
-        "text": "Estamos muito agradecidos pela About Brazil ter sido capaz de dar suporte ao nosso crescimento. Sua equipe é razão fundamental de Brasil continuar sendo meu mercado consumidor favorito."
+        "text": "\"We are so appreciative that About Brazil has been able to support our growth. Your team is the core reason why Brazil remains being my favorite consumer market.\""
       }
     ]
   },
   "contact": {
+    "image": "http://imagizer.imageshack.us/v2/1280x1024q90/921/5gQxsK.jpg",
+    "email": "abmr@aboutbrazilmr.com",
+    "title": "Find out more about the power of well-executed research",
+    "subtitle": "HAVE A COFFEE WITH US",
     "maps": {
-      "marker": "http://sleders.com/wp-content/uploads/leaflet-maps-marker-icons/Flag2LeftRed_256x256-32.png",
+      "marker": "http://imageshack.com/a/img923/948/3RqJxy.png",
       "place": {
-        "lat": -3.7408693,
-        "long": -38.547685
+        "lat": -3.7408747,
+        "long": -38.5454963
       },
       "center": {
-        "lat": -3.7408693,
-        "long": -38.547685
+        "lat": -3.7408747,
+        "long": -38.5454963
       },
       "zoom": 15,
       "text": "CE"
     },
-    "image": "http://www.motionbackgroundsforfree.com/wp-content/uploads/2012/02/Screen-shot-2012-02-16-at-10.00.01-AM.png",
-    "email": "abmr@aboutbrazilmr.com",
-    "title": "Descubra mais sobre o poder de uma pesquisa bem excutada",
-    "subtitle": "VEM TOMAR UM CAFÉ CONOSCO",
     "address": {
-      "title": "ENDEREÇOS",
+      "title": "FOR QUOTES:",
       "list": [
         {
-          "title": "NO CEARÁ",
+          "title": "IN CEARÁ",
           "street": "Rua Dom Joaquim de Melo",
           "number": "407",
           "city": "Fortaleza",
@@ -157,37 +157,37 @@
           "country": "Brasil",
           "zip": {"label": "CEP", "value": "60430-660"},
           "phone": {"label": "T", "value": "+55 (85) 3021-5784"},
-          "fax": {"label": "F", "value": "+55 (85) 3253-3293"}
+          "fax": {"label": "T", "value": "+55 (85) 3047-8126"}
         },
         {
-          "title": "NA BAHIA",
-          "street": "Rua da Mouraria",
-          "number": "03 - sala 201",
+          "title": "IN BAHIA",
+          "street": "Rua Marechal Floriano",
+          "number": "03 - sala 401",
           "city": "Salvador",
           "state": "BA",
           "country": "Brasil",
-          "zip": {"label": "CEP", "value": "60430-660"},
+          "zip": {"label": "CEP", "value": "40110-010"},
           "phone": {"label": "T", "value": "+55 (71) 3266-1038"},
-          "fax": {"label": "F", "value": "+55 (71) 9107-4145"}
+          "fax": {"label": "T", "value": "+55 (71) 99107-4145"}
         }
       ]
     },
     "about": {
-      "title": "Somos a About Brazil",
-      "body": "Uma empresa de pessoas apaixonadas pelo que fazem e que acreditam que pesquisa é vitalmente um trabalho em equipe."
+      "title": "We are AboutBrazil",
+      "body": "A company of people passionate about what they do and who believe that research is vitally teamwork."
     },
     "association": {
-      "title": "Somos associados:",
+      "title": "We are associated with:",
       "list": [
         {
           "name": "Abep",
           "link": "http://crq.abep.org/",
-          "image": "http://staging.terraverde.ppg.br/wp-content/uploads/2016/06/logo-crq-abep.jpg"
+          "image": "http://imageshack.com/a/img922/4980/HgC6da.jpg"
         },
         {
           "name": "Esomar",
           "link": "https://www.esomar.org/",
-          "image": "http://staging.terraverde.ppg.br/wp-content/uploads/2016/06/logo-esomar.jpg"
+          "image": "http://imageshack.com/a/img921/267/Ktg2wc.jpg"
         }
       ]
     }

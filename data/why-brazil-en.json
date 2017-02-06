@@ -1,58 +1,76 @@
 {
   "header": {
-    "image": "http://bestanimations.com/Nature/beautiful-wood-bridge-on-water-nature-lake-view-animated-gif.gif",
-    "title": "POR QUE O BRASIL?",
-    "subtitle": "~ estamos na moda ~"
+    "image": "http://imagizer.imageshack.us/v2/1280x1024q90/922/aIxTkh.jpg",
+    "title": "WHY BRAZIL",
+    "subtitle": "~ we are a market too big to be overlookd ~"
   },
   "about": {
-    "title": "BRASIL",
-    "image": "http://www.a12.com/files/media/originals/bandeira_do_brasil_2.jpg",
+    "title": "",
+    "image": "http://imageshack.com/a/img922/1377/wDZfJl.jpg",
     "text": [
       {
         "key": 1,
         "col": [
-          "O Brasil é simplesmente um mercado grande demais para ser ignorado. É o quinto maior país do mundo, com uma população de aproximadamente 200,4 milhões de habitantes.",
-          "Sua economia tem destaque mundial, e seu PIB per capta é maior do que o da Índia ou China."
+          "Brazil is the fifth largest country in the world, with a population of 200.4 million inhabitants approximately .",
+          "Its economy has global leadership, and its GDP per capita is higher than India or China's GDP."
         ]
       },
       {
         "key": 2,
         "col": [
-          "Tem recursos naturais em abundância, uma base industrial desenvolvida, altos padrões de pesquisa científica e capital humano substancial.",
-          "O Brasil é um dos cinco países que, juntamente com Rússia, Índia, China e África do Sul, compõe o bloco econômico BRICS."
+          "It has abundant natural resources, a developed industrial basis, high standards of scientific research and substantial human capital.",
+          "Brazil is one of the five countries that composes the economic bloc BRICS, along with Russia, India, China and South Africa."
         ]
       }
     ]
   },
   "aboutMap": {
-    "title": "BRASIL NO MAPA",
+    "title": "BRASIL ON MAP",
     "text": [
       {
         "key": 1,
         "col": [
-          "Localizado abaixo da linha do Equador, faz fronteira com 10 dos outros 12 países da América do Sul.",
-          "Governado sob Regime Democrático, constitui-se em República Federativa e tem uma população de 200,4 milhões de habitantes."
+          "Located below the Equatorial Line, it borders with 10 of the other 12 countries in South America.",
+          "Governed under democratic regime, it forms a Federal Republic with 26 states plus the Federal District."
         ]
       },
       {
         "key": 2,
         "col": [
-          "Possui clima predominantemente tropical, sendo temperado ao sul, e é berço de belezas naturais únicas e exuberantes.",
-          "Possui Brasília como capital, no centro-oeste do país, e tem seu centro financeiro em São Paulo, na região sudeste."
+          "It has a weather predominantly tropical, being temperate in the south, and is home to unique and lush natural beauty.",
+          "Its capital is Brasilia, located in the Midwest region, and has its financial centre in São Paulo, in the southeast region."
         ]
       }
     ]
   },
   "statistics": {
-    "title": "CRITÉRIO BRASIL",
-    "description": "O Critério de Classificação Econômica Brasil enfatiza sua função de estimar o poder de compra das pessoas e famílias urbanas, abandonando a pretensão de classificar a população em termos de “classes sociais”. A divisão de mercado definida abaixo é de classes econômicas.",
+    "title": "BRAZIL CRITERIA",
+    "description": "The Economic Classification Brazil Criteria emphasizes its function to estimate the purchasing power of people and urban families, abandoning the pretension of classifying the population in terms of “social classes”. The market division set right below is organized by economic classes.",
+    "grid": {
+      "classDistributions": {
+        "title": "Classes Distribution",
+        "image": "http://imageshack.com/a/img922/7679/4N7l3F.jpg"
+      },
+      "cuts": {
+        "title": "Average Household Income",
+        "image": "http://imageshack.com/a/img921/7069/80Wus5.jpg"
+      },
+      "possession": {
+        "title": "Posse de Itens",
+        "image": "/assets/images/poss-pt.png"
+      },
+      "map": {
+        "title": "Brazilian Map",
+        "image": "http://imageshack.com/a/img924/9691/x7cCGH.jpg"
+      }
+    },
     "grids": [
       {
-        "caption": "POSSE DE ITENS",
-        "source": "Fonte: ABEP - Associação Brasileira de Empresas de Pesquisa",
+        "caption": "ITEMS' OWNERSHIP",
+        "source": "Source: ABEP - Associação Brasileira de Empresas de Pesquisa",
         "headers": [
           "ITEM",
-          "No. DE ITENS 0 1 2 3 4 ou +"
+          "# OF ITEMS 0 1 2 3 4 or +"
         ],
         "rows": [
           {
@@ -60,7 +78,7 @@
             "data": [
               {
                 "key": 1,
-                "text": "ITelevisão em cores"
+                "text": "Color television"
               },
               {
                 "key": 2,
@@ -73,7 +91,7 @@
             "data": [
               {
                 "key": 3,
-                "text": "Rádio"
+                "text": "Radio"
               },
               {
                 "key": 4,
@@ -86,7 +104,7 @@
             "data": [
               {
                 "key": 5,
-                "text": "Banheiro"
+                "text": "Restroom"
               },
               {
                 "key": 6,
@@ -97,11 +115,11 @@
         ]
       },
       {
-        "caption": "CORTES DO CRITÉRIO BRASIL",
-        "source": "Fonte: ABEP - Associação Brasileira de Empresas de Pesquisa",
+        "caption": "BRAZIL CRITERIA CUTS",
+        "source": "Source: ABEP - Associação Brasileira de Empresas de Pesquisa",
         "headers": [
-          "CLASSE",
-          "PONTOS"
+          "CLASS",
+          "POINTS"
         ],
         "rows": [
           {
@@ -161,12 +179,12 @@
     ],
     "matrix": [
       {
-        "caption": "DISTRIBUIÇÃO DAS CLASSES POR PRAÇA",
-        "source": "Fonte: ABEP - Associação Brasileira de Empresas de Pesquisa",
+        "caption": "DISTRIBUTION OF CLASSES PER AREA/CITY",
+        "source": "Source: ABEP - Associação Brasileira de Empresas de Pesquisa",
         "headers": [
-          "GRANDE FORTALEZA",
-          "GRANDE RECIFE",
-          "GRANDE SALVADOR"
+          "FORTALEZA AND METROPOLITAN AREA",
+          "RECIFE AND METROPOLITAN AREA",
+          "SALVADOR AND METROPOLITAN AREA"
         ],
         "rows": [
           {
@@ -180,7 +198,7 @@
           },
           {
             "key": 2,
-            "header": "Classe A2",
+            "header": "Class A2",
             "data": [
               {"key": 1, "text": "2,6"},
               {"key": 2, "text": "3,1"},

@@ -1,8 +1,8 @@
 {
   "header": {
-    "image": "https://media.giphy.com/media/TKL07SyUBRIpq/giphy.gif",
+    "image": "http://imageshack.com/a/img921/1713/RfsZ0Q.png",
     "title": "CONHEÇA NOSSOS SERVIÇOS",
-    "subtitle": "trabalhamos diariamente para entregar nosso melhor em"
+    "subtitle": "Trabalhamos diariamente para entregar nosso melhor em:"
   },
   "list": [
     {
@@ -16,7 +16,11 @@
           "Entrevistas em Profundidade",
           "Etnográficas",
           "Recrutamento",
-          "Cliente Misterioso"
+          "Cliente Misterioso",
+          "Moderação",
+          "Relatórios parciais e/ou completos",
+          "Tradução simultânea e/ou consecutiva",
+          "Transcrição de áudios e/ou vídeos"
         ]
       }
     },
@@ -30,11 +34,13 @@
           "CAPI",
           "CATI",
           "CAWI",
-          "Telephone",
-          "Street/Mall Intercept",
-          "CLT",
-          "On-line",
-          "PAPI"
+          "PAPI",
+          "Entrevistas telefônicas",
+          "Entrevistas On-line",
+          "Ponto de fluxo/ intercept",
+          "Central Location",
+          "Recrutamento",
+          "Cliente Misterioso"
         ]
       }
     },
@@ -47,10 +53,9 @@
         "items": [
           "Digitação",
           "Codificação",
-          "Etnográficas",
           "Consistência",
           "Banco de dados crus",
-          "Relatório parcial e/ou completo"
+          "Tabelas de processamento"
         ]
       }
     }

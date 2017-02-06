@@ -2,10 +2,10 @@
   "header": {
     "image": "http://imageshack.com/a/img924/2927/ktbP0y.jpg",
     "title": "CLIENTES",
-    "subtitle": "Parceiros ao redor do mundo"
+    "subtitle": "Socios en todo el mundo"
   },
   "map": {
-    "title": "Mais do que clientes, temos parceiros em vários países. Conheça um pouco mais.",
+    "title": "Más que clientes, tenemos socios en varios países. Conozca un poco más:",
     "image": "http://imagizer.imageshack.us/v2/1280x1024q90/921/0bbEHx.png",
     "center": [12.779349, 20.331762],
     "zoom": 1,
@@ -145,7 +145,7 @@
   "list": [
     {
       "key": 1,
-      "title": "Clientes Internacionais",
+      "title": "Clientes Internacionales",
       "list": [
         {
           "key": 1,
@@ -280,12 +280,12 @@
             {
               "key": 25,
               "name": "A+A Healthcare Marketing Research",
-              "country": "França"
+              "country": "Francia"
             },
             {
               "key": 26,
               "name": "AG Knowledge Tech Private Limited",
-              "country": "Índia"
+              "country": "Inglaterra"
             },
             {
               "key": 27,
@@ -295,27 +295,27 @@
             {
               "key": 28,
               "name": "IFF",
-              "country": "França"
+              "country": "Francia"
             },
             {
               "key": 29,
               "name": "Imagin Prof. Bochmann AG",
-              "country": "Alemanha"
+              "country": "Alemania"
             },
             {
               "key": 30,
               "name": "MM-Eye GmbH",
-              "country": "Alemanha"
+              "country": "Alemania"
             },
             {
               "key": 31,
               "name": "M.K.S International",
-              "country": "Luxemburgo"
+              "country": "Bélgica"
             },
             {
               "key": 32,
               "name": "Psyma",
-              "country": "Alemanha"
+              "country": "Alemania"
             },
             {
               "key": 33,
@@ -335,7 +335,7 @@
             {
               "key": 36,
               "name": "ROSENTHAL",
-              "country": "Espanha"
+              "country": "Espania"
             },
             {
               "key": 37,
@@ -361,37 +361,37 @@
             {
               "key": 40,
               "name": "Cross Marketing",
-              "country": "Japão"
+              "country": "Japón"
             },
             {
               "key": 41,
               "name": "EC21",
-              "country": "Coréia do Sul"
+              "country": "Corea del Sur"
             },
             {
               "key": 42,
               "name": "Glocalmind",
-              "country": "Índia"
+              "country": "India"
             },
             {
               "key": 43,
               "name": "Grail Research",
-              "country": "Índia"
+              "country": "India"
             },
             {
               "key": 44,
               "name": "KANTAR GROUP",
-              "country": "Japão"
+              "country": "Japón"
             },
             {
               "key": 45,
               "name": "MARKELYTICS",
-              "country": "Índia"
+              "country": "India"
             },
             {
               "key": 46,
               "name": "WE Research",
-              "country": "Índia"
+              "country": "India"
             }
           ]
         }

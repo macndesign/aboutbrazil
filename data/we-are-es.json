@@ -1,131 +1,131 @@
 {
   "header": {
     "image": "http://imageshack.com/a/img923/2295/OgvL3B.png",
-    "title": "QUEM SOMOS",
-    "subtitle": "~ excelência em pesquisa ~"
+    "title": "QUIÉN SOMOS",
+    "subtitle": "~ excelencia en investigación ~"
   },
   "body": [
-    "Fundada em Salvador (BA) no ano de 2005, a ABOUT BRAZIL disponibiliza aos seus clientes serviços de pesquisa primária e secundária para estudos quantitativos e qualitativos, oferecendo dados precisos para apoiá-los em suas decisões mercadológicas.",
-    "Temos escritórios localizados em Salvador, Fortaleza e São Paulo, e nossa estrutura de campo dispõe de supervisão local em todas as principais cidades do Brasil, tendo, portanto, a capacidade de atender todo o país, bem como os mais diversos países da América Latina."
+    "Fundada en Salvador (BA) en 2005, el Brasil ofrece a sus clientes servicios de investigación primaria y secundaria para estudios cuantitativos y cualitativos, proporcionando datos precisos para apoyarlos en sus decisiones de marketing.",
+    "Tenemos oficinas ubicadas en Salvador, Fortaleza y Sao Paulo en Brasil, y nuestra estructura de campo dispone de supervisión local en las principales ciudades de Brasil, por lo tanto, tenemos la capacidad de cubrir todo este país, así como los más diversos países en América Latina."
   ],
   "teams": [
     {
-      "title": "Diretoria Executiva e Internacional",
+      "title": "Dirección Ejecutiva y Internacional",
       "list": [
         {
           "photo": "http://imageshack.com/a/img922/6870/PV9zOA.jpg",
           "name": "Wagner Rebouças",
-          "about": "Pós-graduação em Administração de Empresas com foco em marketing. 30 anos de experiência no segmento de Pesquisa de Mercado."
+          "about": "Pós-graduación en Administración de Empresas con énfasis en Marketing. 30 años de experiencia en el segmento de investigación de mercado."
         }
       ]
     },
     {
-      "title": "Divisão Internacional - Atendimento ao Cliente",
+      "title": "División Internacional - Servicio al Cliente",
       "list": [
         {
           "photo": "http://imageshack.com/a/img921/5512/YXdip3.jpg",
           "name": "Aragão Marques",
-          "about": "Coordenador Internacional de Projetos."
+          "about": "Coordinador de Proyectos Internacionales"
         },
         {
           "photo": "http://imageshack.com/a/img923/6756/zHdUb6.jpg",
           "name": "Moara Cortazzo",
-          "about": "Coordenadora Internacional de Projetos."
+          "about": "Coordinadora de Proyectos Internacionales"
         },
         {
           "photo": "http://imageshack.com/a/img924/3235/Ty5s1O.jpg",
           "name": "Gabriel Siqueira",
-          "about": "Executivo Internacional de Projetos."
+          "about": "Ejecutivo de Proyectos Internacionales"
         },
         {
           "photo": "http://imageshack.com/a/img922/9428/HFcXGQ.jpg",
           "name": "Ricardo Bezerra",
-          "about": "Executivo Internacional de Projetos."
+          "about": "Ejecutivo de Proyectos Internacionales"
         }
       ]
     },
     {
-      "title": "Divisão de Operações",
+      "title": "División de Operaciones de Campo",
       "list": [
         {
           "photo": "http://imageshack.com/a/img924/7046/0OHOKd.jpg",
           "name": "Fabiana de Sousa",
-          "about": "Gerente de Operações."
+          "about": "Gerente de Operaciones"
         },
         {
           "photo": "http://imageshack.com/a/img923/8818/yfalj3.jpg",
           "name": "Jander Farias",
-          "about": "Subgerente de Operações."
+          "about": "Subgerente de Operaciones"
         },
         {
           "photo": "http://imageshack.com/a/img922/2268/Pg6X4s.jpg",
           "name": "Amália Lima Verde",
-          "about": "Subgerente de Operações."
+          "about": "Subgerente de Operaciones"
         },
         {
           "photo": "http://imageshack.com/a/img923/3355/R6KIE9.jpg",
           "name": "Mariana Ferreira",
-          "about": "Executiva de Operações."
+          "about": "Ejecutiva de Operaciones"
         },
         {
           "photo": "http://imageshack.com/a/img922/727/5xEkFM.jpg",
           "name": "Elaine Santiago",
-          "about": "Executiva de Operações."
+          "about": "Ejecutiva de Operaciones"
         },
         {
           "photo": "http://imageshack.com/a/img922/839/Z8m42w.jpg",
           "name": "Sarah Mendes",
-          "about": "Executiva de Operações."
+          "about": "Ejecutiva de Operaciones"
         },
         {
           "photo": "http://imageshack.com/a/img923/9243/2DN05X.jpg",
           "name": "Priscila Gurgel",
-          "about": "Executiva de Operações."
+          "about": "Ejecutiva de Operaciones"
         }
       ]
     },
     {
-      "title": "Divisão de Finanças",
+      "title": "División Financiera",
       "list": [
         {
           "photo": "http://imageshack.com/a/img923/1251/CG7not.jpg",
           "name": "Ane Cristine",
-          "about": "Diretora Financeira."
+          "about": "Directora Financiera"
         },
         {
           "photo": "http://imageshack.com/a/img923/3997/ywYrjy.jpg",
           "name": "Lucas Viana",
-          "about": "Gerente Financeiro."
+          "about": "Gerente Financiero"
         },
         {
           "photo": "http://imageshack.com/a/img924/8357/QwQRji.jpg",
           "name": "Roberta Menezes",
-          "about": "Executiva de Custos."
+          "about": "Ejecutiva de Costos"
         },
         {
           "photo": "http://imageshack.com/a/img924/4238/Cu8VCO.jpg",
           "name": "Lucas Ferreira",
-          "about": "Executivo de Custos."
+          "about": "Ejecutivo de Costos"
         },
         {
           "photo": "http://imageshack.com/a/img921/2851/9yvT5t.jpg",
           "name": "Eri Johnson",
-          "about": "Executivo de Custos."
+          "about": "Ejecutivo de Costos"
         }
       ]
     },
     {
-      "title": "Divisão de Painéis",
+      "title": "División de Paneles",
       "list": [
         {
           "photo": "http://imageshack.com/a/img922/1333/8ZkdhA.jpg",
           "name": "Fernanda Aires",
-          "about": "Coordenadora de Painéis."
+          "about": "Coordinadora de Paneles"
         },
         {
           "photo": "http://imageshack.com/a/img922/6494/3FnkSw.jpg",
           "name": "Vinicius Ribeiro",
-          "about": "Coordenador de Painéis."
+          "about": "Coordinador de Paneles"
         }
       ]
     }

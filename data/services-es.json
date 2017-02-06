@@ -1,0 +1,63 @@
+{
+  "header": {
+    "image": "http://imageshack.com/a/img921/1713/RfsZ0Q.png",
+    "title": "CONOZCA NUESTROS SERVICIOS",
+    "subtitle": "Trabajamos día a día para ofrecer nuestro mejor en:"
+  },
+  "list": [
+    {
+      "icon": "/assets/images/clear-350x350-99.png",
+      "title": "INVESTIGACIÓN CUALITATIVA",
+      "body": "Garantizamos un reclutamiento serio y eficaz de alta calidad para satisfacer las necesidades del cliente. Utilizamos técnicas de observación, acercamiento y investigación para llevar a cabo entrevistas en profundidad y grupos focales que generan estándares definidos y proporcionan orientación al cliente para su toma de decisiones.",
+      "more": {
+        "title": "Los servicios ofrecidos en esta categoría incluyen:",
+        "items": [
+          "Focus Groups presenciales y on-line",
+          "Entrevistas en profundidad",
+          "Etnografías",
+          "Reclutamiento",
+          "Cliente Incógnito",
+          "Moderación",
+          "Reportes Topline y/o completos",
+          "Traducción simultánea y/o consecutiva",
+          "Transcripción de audios y/o vídeos"
+        ]
+      }
+    },
+    {
+      "icon": "/assets/images/reminders-350x350-18.png",
+      "title": "INVESTIGACIÓN CUANTITATIVA",
+      "body": "Nuestros estudios cuantitativos son basados en cuestionarios pre-estructurados que atingen el objetivo del cliente, proporcionándoles la logística que les permitan identificar fácilmente las necesidades y expectativas de sus clientes.",
+      "more": {
+        "title": "Los servicios ofrecidos en esta categoría incluyen:",
+        "items": [
+          "CAPI",
+          "CATI",
+          "CAWI",
+          "PAPI",
+          "Entrevistas telefónicas",
+          "Entrevistas on-line",
+          "Intercepción en puntos de flujo / en la calle o centro comercial",
+          "Central Location",
+          "Reclutamiento",
+          "Cliente Incógnito"
+        ]
+      }
+    },
+    {
+      "icon": "/assets/images/phone-350x350-12.png",
+      "title": "PROCESAMIENTO DE LOS DATOS",
+      "body": "Ofrecemos servicios de procesamiento de datos utilizando herramientas estadísticas consagradas en el mercado y desarrollamos soluciones de software a medida según las necesidades de cada cliente.",
+      "more": {
+        "title": "Los servicios ofrecidos en esta categoría incluyen:",
+        "items": [
+          "Entrada de los datos",
+          "Codificación de las abiertas",
+          "Limpieza de los datos",
+          "Datos crudos",
+          "Datos procesados"
+        ]
+      }
+    }
+  ]
+}

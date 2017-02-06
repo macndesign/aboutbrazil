@@ -1,51 +1,131 @@
 {
   "header": {
-    "image": "https://d13yacurqjgara.cloudfront.net/users/121337/screenshots/2572438/mbe_earth.gif",
-    "title": "QUEM SOMOS",
-    "subtitle": "~ excelência em pesquisa ~"
+    "image": "http://imageshack.com/a/img923/2295/OgvL3B.png",
+    "title": "WHO WE ARE",
+    "subtitle": "~ excellence in research ~"
   },
   "body": [
-    "Fundada em Salvador (BA) no ano de 2005, a ABOUT BRAZIL disponibiliza aos seus clientes serviços de pesquisa primária e secundária para estudos quantitativos e qualitativos, oferecendo dados precisos para apoiá-los em suas decisões mercadológicas.",
-    "Temos escritórios localizados em Salvador, Fortaleza e São Paulo, e nossa estrutura de campo dispõe de supervisão local em todas as principais cidades do Brasil, tendo, portanto, a capacidade de atender todo o país, bem como os mais diversos países da América Latina."
+    "Established in Salvador (BA) in 2005, ABOUT BRAZIL offers its customers primary and secondary research services for quantitative and qualitative studies, providing accurate data to support them in their marketing decisions.",
+    "We have offices located in Salvador, Fortaleza and São Paulo, Brazil. Our fieldwork capabilities count on local supervision in all major cities in Brazil as well as in all the other Latin American countries we can also cover."
   ],
   "teams": [
     {
-      "title": "Diretoria Executiva",
+      "title": "Executive and International Division Director",
       "list": [
         {
-          "photo": "http://staging.terraverde.ppg.br/wp-content/uploads/2016/05/Wagner-Rebouças.jpg",
+          "photo": "http://imageshack.com/a/img922/6870/PV9zOA.jpg",
           "name": "Wagner Rebouças",
-          "about": "Pós-graduação em Administração de Empresas com foco em marketing. 30 anos de experiência no Mercado."
+          "about": "P.G. Degree in Business Administration with focus on Marketing. 30 years of extensive experience in Market Research."
         }
       ]
     },
     {
-      "title": "Divisão Internacional – Atendimento ao Cliente",
+      "title": "International Division – Customer Service",
       "list": [
         {
-          "photo": "http://staging.terraverde.ppg.br/wp-content/uploads/2016/05/Valentim-Rebouças.jpg",
-          "name": "Valentim Fernandes",
-          "about": "Pós-graduação em Ciências Humanas – Línguas Estrangeiras 15 anos de experiência em Pesquisa de Mercado."
+          "photo": "http://imageshack.com/a/img921/5512/YXdip3.jpg",
+          "name": "Aragão Marques",
+          "about": "Coordinator of International Projects"
         },
         {
-          "photo": "http://staging.terraverde.ppg.br/wp-content/uploads/2016/05/Aragão-Marques.jpg",
-          "name": "Aragão Marques",
-          "about": "Coordenador Internacional de Projetos."
+          "photo": "http://imageshack.com/a/img923/6756/zHdUb6.jpg",
+          "name": "Moara Cortazzo",
+          "about": "Coordinator of International Projects"
+        },
+        {
+          "photo": "http://imageshack.com/a/img924/3235/Ty5s1O.jpg",
+          "name": "Gabriel Siqueira",
+          "about": "Executive of International Projects"
+        },
+        {
+          "photo": "http://imageshack.com/a/img922/9428/HFcXGQ.jpg",
+          "name": "Ricardo Bezerra",
+          "about": "Executive of International Projects"
         }
       ]
     },
     {
-      "title": "Divisão de Operações",
+      "title": "Fieldwork Division",
       "list": [
         {
-          "photo": "http://staging.terraverde.ppg.br/wp-content/uploads/2016/05/Valentim-Rebouças.jpg",
-          "name": "Valentim Fernandes",
-          "about": "Pós-graduação em Ciências Humanas – Línguas Estrangeiras 15 anos de experiência em Pesquisa de Mercado."
+          "photo": "http://imageshack.com/a/img924/7046/0OHOKd.jpg",
+          "name": "Fabiana de Sousa",
+          "about": "Fieldwork Manager"
         },
         {
-          "photo": "http://staging.terraverde.ppg.br/wp-content/uploads/2016/05/Aragão-Marques.jpg",
-          "name": "Aragão Marques",
-          "about": "Coordenador Internacional de Projetos."
+          "photo": "http://imageshack.com/a/img923/8818/yfalj3.jpg",
+          "name": "Jander Farias",
+          "about": "Assistant Fieldwork Manager"
+        },
+        {
+          "photo": "http://imageshack.com/a/img922/2268/Pg6X4s.jpg",
+          "name": "Amália Lima Verde",
+          "about": "Assistant Fieldwork Manager"
+        },
+        {
+          "photo": "http://imageshack.com/a/img923/3355/R6KIE9.jpg",
+          "name": "Mariana Ferreira",
+          "about": "Fieldwork Executive"
+        },
+        {
+          "photo": "http://imageshack.com/a/img922/727/5xEkFM.jpg",
+          "name": "Elaine Santiago",
+          "about": "Fieldwork Executive"
+        },
+        {
+          "photo": "http://imageshack.com/a/img922/839/Z8m42w.jpg",
+          "name": "Sarah Mendes",
+          "about": "Fieldwork Executive"
+        },
+        {
+          "photo": "http://imageshack.com/a/img923/9243/2DN05X.jpg",
+          "name": "Priscila Gurgel",
+          "about": "Fieldwork Executive"
+        }
+      ]
+    },
+    {
+      "title": "Financial Division",
+      "list": [
+        {
+          "photo": "http://imageshack.com/a/img923/1251/CG7not.jpg",
+          "name": "Ane Cristine",
+          "about": "Financial Director"
+        },
+        {
+          "photo": "http://imageshack.com/a/img923/3997/ywYrjy.jpg",
+          "name": "Lucas Viana",
+          "about": "Financial Manager"
+        },
+        {
+          "photo": "http://imageshack.com/a/img924/8357/QwQRji.jpg",
+          "name": "Roberta Menezes",
+          "about": "Costing Executive"
+        },
+        {
+          "photo": "http://imageshack.com/a/img924/4238/Cu8VCO.jpg",
+          "name": "Lucas Ferreira",
+          "about": "Costing Executive"
+        },
+        {
+          "photo": "http://imageshack.com/a/img921/2851/9yvT5t.jpg",
+          "name": "Eri Johnson",
+          "about": "Costing Executive"
+        }
+      ]
+    },
+    {
+      "title": "Panel Division",
+      "list": [
+        {
+          "photo": "http://imageshack.com/a/img922/1333/8ZkdhA.jpg",
+          "name": "Fernanda Aires",
+          "about": "Panels Coordinator"
+        },
+        {
+          "photo": "http://imageshack.com/a/img922/6494/3FnkSw.jpg",
+          "name": "Vinicius Ribeiro",
+          "about": "Panels Coordinator"
         }
       ]
     }

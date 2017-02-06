@@ -1,33 +1,143 @@
 {
   "header": {
-    "image": "http://bestanimations.com/Nature/flowing-waterfall-cliff-green-nature-animated-gif.gif",
-    "title": "CLIENTES",
-    "subtitle": "Parceiros ao redor do mundo"
+    "image": "http://imageshack.com/a/img924/2927/ktbP0y.jpg",
+    "title": "CUSTOMERS",
+    "subtitle": "Worldwide partners"
   },
   "map": {
-    "title": "Mais do que clientes, temos parceiros em vários países. Conheça um pouco mais.",
-    "image": "http://bestanimations.com/Nature/flowing-waterfall-cliff-green-nature-animated-gif.gif",
+    "title": "More than customers, we have partners in several countries. Lear more about it:",
+    "image": "http://imagizer.imageshack.us/v2/1280x1024q90/921/0bbEHx.png",
     "center": [12.779349, 20.331762],
     "zoom": 1,
     "markers": [
       {
-        "lat": -12.844249,
-        "long": -49.453391,
+        "lat": -15.7942287,
+        "long": -47.8821658,
         "text": "BR"
       },
       {
-        "lat": -25.274792,
-        "long": -61.758078,
-        "text": "AR"
+        "lat": -23.5505199,
+        "long": -46.6333094,
+        "text": "BR"
       },
       {
-        "lat": -13.870390,
-        "long": -64.570578,
+        "lat": -22.9068467,
+        "long": -43.1728965,
+        "text": "BR"
+      },
+      {
+        "lat": -12.046374,
+        "long": -77.0427934,
+        "text": "PE"
+      },
+      {
+        "lat": 19.4326077,
+        "long": -99.133208,
+        "text": "MX"
+      },
+      {
+        "lat": -16.489689,
+        "long": -68.1192936,
         "text": "BO"
       },
       {
-        "lat": 2.339118,
-        "long": -72.129171,
+        "lat": 38.9071923,
+        "long": -77.0368707,
+        "text": "US"
+      },
+      {
+        "lat": 40.7127837,
+        "long": -74.0059413,
+        "text": "US"
+      },
+      {
+        "lat": -34.6036844,
+        "long": -58.3815591,
+        "text": "AR"
+      },
+      {
+        "lat": 45.4215296,
+        "long": -75.6971931,
+        "text": "CA"
+      },
+      {
+        "lat": 41.3850639,
+        "long": 2.1734035,
+        "text": "ES"
+      },
+      {
+        "lat": 51.5073509,
+        "long": -0.1277583,
+        "text": "EN"
+      },
+      {
+        "lat": 48.856614,
+        "long": 2.3522219,
+        "text": "FR"
+      },
+      {
+        "lat": 50.145296,
+        "long": 8.3881459,
+        "text": "DE"
+      },
+      {
+        "lat": 48.1351253,
+        "long": 11.5819806,
+        "text": "DE"
+      },
+      {
+        "lat": 49.45203,
+        "long": 11.07675,
+        "text": "DE"
+      },
+      {
+        "lat": 49.61059871,
+        "long": 6.13165855,
+        "text": "LX"
+      },
+      {
+        "lat": 51.486073,
+        "long": -0.3101169,
+        "text": "LX"
+      },
+      {
+        "lat": 51.4669939,
+        "long": -1.1853677,
+        "text": "LX"
+      },
+      {
+        "lat": 53.927056,
+        "long": -1.384816,
+        "text": "EN"
+      },
+      {
+        "lat": 35.6894875,
+        "long": 139.6917064,
+        "text": "JP"
+      },
+      {
+        "lat": 37.566535,
+        "long": 126.9779692,
+        "text": "KO"
+      },
+      {
+        "lat": 12.9715987,
+        "long": 77.5945627,
+        "text": "IN"
+      },
+      {
+        "lat": 19.0759837,
+        "long": 72.8776559,
+        "text": "IN"
+      },
+      {
+        "lat": 28.6139391,
+        "long": 77.2090212,
+        "text": "IN"
+      },
+      {
+        "lat": 4.7109886,
+        "long": -74.072092,
         "text": "CO"
       }
     ]
@@ -35,52 +145,253 @@
   "list": [
     {
       "key": 1,
-      "title": "Clientes Internacionais",
+      "title": "International Clients",
       "list": [
         {
           "key": 1,
-          "place": "AMÉRICA",
+          "place": "AMERICA",
           "list": [
             {
               "key": 1,
+              "name": "ACERTIVA",
+              "country": "Mexico"
+            },
+            {
+              "key": 2,
+              "name": "ASPEN Research, Inc",
+              "country": "USA"
+            },
+            {
+              "key": 3,
+              "name": "BRAIN Research",
+              "country": "Mexico"
+            },
+            {
+              "key": 4,
               "name": "Datos Claros",
               "country": "Argentina"
             },
             {
-              "key": 2,
-              "name": "MSH Consultant",
-              "country": "Bolívia"
+              "key": 5,
+              "name": "DISCUSS",
+              "country": "USA"
             },
             {
-              "key": 3,
+              "key": 6,
+              "name": "FUEL YOUR WORLD",
+              "country": "USA"
+            },
+            {
+              "key": 7,
+              "name": "Georgetown University",
+              "country": "USA"
+            },
+            {
+              "key": 8,
+              "name": "Globus Medical",
+              "country": "USA"
+            },
+            {
+              "key": 9,
               "name": "Goldfarb Inteligence Marketing",
-              "country": "Canadá"
+              "country": "Canada"
+            },
+            {
+              "key": 10,
+              "name": "MSH Consultant",
+              "country": "Bolivia"
+            },
+            {
+              "key": 11,
+              "name": "NAVIGANT",
+              "country": "USA"
+            },
+            {
+              "key": 12,
+              "name": "ON-TARGET",
+              "country": "Mexico"
+            },
+            {
+              "key": 13,
+              "name": "Q Research Solutions, Inc",
+              "country": "Mexico"
+            },
+            {
+              "key": 14,
+              "name": "SIS International Research",
+              "country": "USA"
+            },
+            {
+              "key": 15,
+              "name": "Snyder Market Research, LLC",
+              "country": "USA"
+            },
+            {
+              "key": 16,
+              "name": "StandPoint",
+              "country": "USA"
+            },
+            {
+              "key": 17,
+              "name": "STRATEGOS",
+              "country": "Mexico"
+            },
+            {
+              "key": 18,
+              "name": "TAKASAGO",
+              "country": "USA"
+            },
+            {
+              "key": 19,
+              "name": "TATTOO Brand Strategy",
+              "country": "USA"
+            },
+            {
+              "key": 20,
+              "name": "TEMPO GROUP SA",
+              "country": "Colombia"
+            },
+            {
+              "key": 21,
+              "name": "THE FIELDCATS",
+              "country": "USA"
+            },
+            {
+              "key": 22,
+              "name": "TOUCHPOINT",
+              "country": "USA"
+            },
+            {
+              "key": 23,
+              "name": "VERILOGUE",
+              "country": "USA"
             }
           ]
         },
         {
           "key": 2,
-          "place": "EUROPA",
+          "place": "EUROPE",
           "list": [
             {
-              "key": 4,
+              "key": 24,
+              "name": "2CV News & Insights",
+              "country": "England"
+            },
+            {
+              "key": 25,
+              "name": "A+A Healthcare Marketing Research",
+              "country": "France"
+            },
+            {
+              "key": 26,
+              "name": "AG Knowledge Tech Private Limited",
+              "country": "England"
+            },
+            {
+              "key": 27,
+              "name": "ANNIK SYSTEMS",
+              "country": "England"
+            },
+            {
+              "key": 28,
+              "name": "IFF",
+              "country": "France"
+            },
+            {
+              "key": 29,
               "name": "Imagin Prof. Bochmann AG",
-              "country": "Alemanha"
+              "country": "Germany"
             },
             {
-              "key": 5,
+              "key": 30,
               "name": "MM-Eye GmbH",
-              "country": "Alemanha"
+              "country": "Germany"
             },
             {
-              "key": 6,
-              "name": "Psyma",
-              "country": "Alemanha"
-            },
-            {
-              "key": 7,
+              "key": 31,
               "name": "M.K.S International",
-              "country": "Belgica"
+              "country": "Belgium"
+            },
+            {
+              "key": 32,
+              "name": "Psyma",
+              "country": "Germany"
+            },
+            {
+              "key": 33,
+              "name": "Recom - Research in Communications",
+              "country": "England"
+            },
+            {
+              "key": 34,
+              "name": "RITEANGLE",
+              "country": "England"
+            },
+            {
+              "key": 35,
+              "name": "River Research",
+              "country": "England"
+            },
+            {
+              "key": 36,
+              "name": "ROSENTHAL",
+              "country": "Spain"
+            },
+            {
+              "key": 37,
+              "name": "Saskia Frewer Associates",
+              "country": "England"
+            },
+            {
+              "key": 38,
+              "name": "SMART ANALYST",
+              "country": "England"
+            },
+            {
+              "key": 39,
+              "name": "Swift Research Limited",
+              "country": "England"
+            }
+          ]
+        },
+        {
+          "key": 3,
+          "place": "ASIA AND OCEANIA",
+          "list": [
+            {
+              "key": 40,
+              "name": "Cross Marketing",
+              "country": "Japan"
+            },
+            {
+              "key": 41,
+              "name": "EC21",
+              "country": "South Korea"
+            },
+            {
+              "key": 42,
+              "name": "Glocalmind",
+              "country": "India"
+            },
+            {
+              "key": 43,
+              "name": "Grail Research",
+              "country": "India"
+            },
+            {
+              "key": 44,
+              "name": "KANTAR GROUP",
+              "country": "Japan"
+            },
+            {
+              "key": 45,
+              "name": "MARKELYTICS",
+              "country": "India"
+            },
+            {
+              "key": 46,
+              "name": "WE Research",
+              "country": "India"
             }
           ]
         }
@@ -88,7 +399,7 @@
     },
     {
       "key": 2,
-      "title": "Clientes Nacionais",
+      "title": "National Clients",
       "list": [
         {
           "key": 1,
@@ -96,18 +407,138 @@
           "list": [
             {
               "key": 1,
-              "name": "Datos Claros",
-              "country": "Argentina"
+              "name": "AG3 Consulting",
+              "country": ""
             },
             {
               "key": 2,
-              "name": "MSH Consultant",
-              "country": "Bolívia"
+              "name": "Datafolha",
+              "country": ""
             },
             {
               "key": 3,
-              "name": "Goldfarb Inteligence Marketing",
-              "country": "Canadá"
+              "name": "Editora Abril",
+              "country": ""
+            },
+            {
+              "key": 4,
+              "name": "Editora Moderna",
+              "country": ""
+            },
+            {
+              "key": 5,
+              "name": "Escopo Suporte e Decisões Empresariais",
+              "country": ""
+            },
+            {
+              "key": 6,
+              "name": "JGAM Ferramentas Educacionais",
+              "country": ""
+            },
+            {
+              "key": 7,
+              "name": "Kibon",
+              "country": ""
+            },
+            {
+              "key": 8,
+              "name": "LM Farma Indústria Comércio Ltda",
+              "country": ""
+            },
+            {
+              "key": 9,
+              "name": "Marplan Pesquisas",
+              "country": ""
+            },
+            {
+              "key": 10,
+              "name": "TNS",
+              "country": ""
+            },
+            {
+              "key": 11,
+              "name": "Moray do Brasil",
+              "country": ""
+            },
+            {
+              "key": 12,
+              "name": "My System Soluções Tecnológicas",
+              "country": ""
+            },
+            {
+              "key": 13,
+              "name": "OMA",
+              "country": ""
+            },
+            {
+              "key": 14,
+              "name": "OSLO",
+              "country": ""
+            },
+            {
+              "key": 15,
+              "name": "Painel Brasil",
+              "country": ""
+            },
+            {
+              "key": 16,
+              "name": "Perfil 3 Pesquisas",
+              "country": ""
+            },
+            {
+              "key": 17,
+              "name": "Plano CDE",
+              "country": ""
+            },
+            {
+              "key": 18,
+              "name": "Potencial Pesquisas",
+              "country": ""
+            },
+            {
+              "key": 19,
+              "name": "Prefeitura de Salvador",
+              "country": ""
+            },
+            {
+              "key": 20,
+              "name": "Qualimétrica Pesquisa de Marketing",
+              "country": ""
+            },
+            {
+              "key": 21,
+              "name": "Recomenda Pesquisas",
+              "country": ""
+            },
+            {
+              "key": 22,
+              "name": "São Paulo Pesquisas",
+              "country": ""
+            },
+            {
+              "key": 23,
+              "name": "SENAC Rio de Janeiro",
+              "country": ""
+            },
+            {
+              "key": 24,
+              "name": "SENSENOVA",
+              "country": ""
+            },
+            {
+              "key": 25,
+              "name": "IPSOS",
+              "country": ""
+            },
+            {
+              "key": 26,
+              "name": "Tele Bahia",
+              "country": ""
+            },
+            {
+              "key": 27,
+              "name": "TV Itapuã",
+              "country": ""
             }
           ]
         }

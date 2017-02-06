@@ -1,8 +1,8 @@
 {
   "header": {
     "image": "http://imagizer.imageshack.us/v2/1280x1024q90/922/aIxTkh.jpg",
-    "title": "POR QUE O BRASIL?",
-    "subtitle": "~ somos um mercado grande demais para ser ignorado ~"
+    "title": "POR QUÉ BRASIL?",
+    "subtitle": "~ somos un mercado demasiado grande para ser ignorado ~"
   },
   "about": {
     "title": "BRASIL",
@@ -11,66 +11,66 @@
       {
         "key": 1,
         "col": [
-          "O Brasil é o quinto maior país do mundo, com uma população de aproximadamente 200,4 milhões de habitantes.",
-          "Sua economia tem destaque mundial, e seu PIB per capta é maior do que o da Índia ou China."
+          "Brasil es el quinto país más grande del mundo, con una población de aproximadamente 200,4 millones de habitantes.",
+          "Su economía tiene destaque mundial, y su PIB per cápita es superior al de la India o China."
         ]
       },
       {
         "key": 2,
         "col": [
-          "Tem recursos naturais em abundância, uma base industrial desenvolvida, altos padrões de pesquisa científica e capital humano substancial.",
-          "O Brasil é um dos cinco países que, juntamente com Rússia, Índia, China e África do Sul, compõe o bloco econômico BRICS."
+          "Cuenta con abundantes recursos naturales, una base industrial desarrollada, un alto nivel de investigación científica y capital humano considerable.",
+          "Brasil es uno de los cinco países, junto con Rusia, India, China y Sudáfrica, conformando el bloque económico BRICS."
         ]
       }
     ]
   },
   "aboutMap": {
-    "title": "BRASIL NO MAPA",
+    "title": "BRASIL EN EL MAPA",
     "text": [
       {
         "key": 1,
         "col": [
-          "Localizado abaixo da linha do Equador, faz fronteira com 10 dos outros 12 países da América do Sul.",
-          "Governado sob Regime Democrático, constitui-se em República Federativa composta de 26 estados mais o Distrito Federal."
+          "Localizada abajo de la línea del Equador, hace frontera con 10 otros 12 países de la América del Sur.",
+          "Gobernado por Régimen Democrático, se constituye en una República Federativa componiendose de 26 estados más el Distrito Federal."
         ]
       },
       {
         "key": 2,
         "col": [
-          "Possui clima predominantemente tropical, sendo temperado ao sul, e é berço de belezas naturais únicas e exuberantes.",
-          "Possui Brasília como capital, no centro-oeste do país, e tem seu centro financeiro em São Paulo, na região sudeste."
+          "Posee clima predominantemente tropical, temperado al sur, y es cuna de bellezas naturales únicas y exuberantes.",
+          "Brasília es su capital, en el centro-oeste del país, y su centro financiero es en São Paulo, región sudeste."
         ]
       }
     ]
   },
   "statistics": {
-    "title": "CRITÉRIO BRASIL",
-    "description": "O Critério de Classificação Econômica Brasil enfatiza sua função de estimar o poder de compra das pessoas e famílias urbanas, abandonando a pretensão de classificar a população em termos de \"classes sociais\". A divisão de mercado definida abaixo é de classes econômicas.",
+    "title": "CRITERIO BRASIL",
+    "description": "El Criterio de Clasificación Económica Brasil hace hincapié en su función para calcular el poder adquisitivo de las personas y las familias urbanas, abandonando la pretensión de la clasificación de la población en términos de \"clases sociales\". La división de mercado definida abajo é de clases económicas.",
     "grid": {
       "classDistributions": {
-        "title": "Distribuição de Classes",
-        "image": "http://imageshack.com/a/img924/5641/PWsiXN.jpg"
+        "title": "Distribución de clases",
+        "image": "http://imageshack.com/a/img922/7586/UjwBFW.jpg"
       },
       "cuts": {
-        "title": "Renda Média Familiar",
-        "image": "http://imageshack.com/a/img923/1994/QdTi8j.jpg"
+        "title": "Ingreso Promedio del Hogar",
+        "image": "http://imageshack.com/a/img923/3043/ij1QSL.jpg"
       },
       "possession": {
         "title": "Posse de Itens",
         "image": "/assets/images/poss-pt.png"
       },
       "map": {
-        "title": "Mapa do Brasil",
+        "title": "Mapa de Brasil",
         "image": "http://imageshack.com/a/img924/9691/x7cCGH.jpg"
       }
     },
     "grids": [
       {
-        "caption": "POSSE DE ITENS",
-        "source": "Fonte: ABEP - Associação Brasileira de Empresas de Pesquisa",
+        "caption": "POSESIÓN DE ARTÍCULOS",
+        "source": "Fuente: ABEP - Asociación Brasileña de Empresas de Investigación",
         "headers": [
-          "ITEM",
-          "No. DE ITENS 0 1 2 3 4 ou +"
+          "ARTÍCULO",
+          "No. DE ARTÍCULOS 0 1 2 3 4 ou +"
         ],
         "rows": [
           {
@@ -78,7 +78,7 @@
             "data": [
               {
                 "key": 1,
-                "text": "ITelevisão em cores"
+                "text": "Televisión en color"
               },
               {
                 "key": 2,
@@ -91,7 +91,7 @@
             "data": [
               {
                 "key": 3,
-                "text": "Rádio"
+                "text": "Radio"
               },
               {
                 "key": 4,
@@ -104,7 +104,7 @@
             "data": [
               {
                 "key": 5,
-                "text": "Banheiro"
+                "text": "Cuarto de baño"
               },
               {
                 "key": 6,
@@ -117,7 +117,7 @@
             "data": [
               {
                 "key": 7,
-                "text": "Banheiro"
+                "text": "Automóvil"
               },
               {
                 "key": 8,
@@ -130,7 +130,7 @@
             "data": [
               {
                 "key": 9,
-                "text": "Banheiro"
+                "text": "Empleadas domésticas"
               },
               {
                 "key": 10,
@@ -143,7 +143,7 @@
             "data": [
               {
                 "key": 11,
-                "text": "Banheiro"
+                "text": "Lavadora"
               },
               {
                 "key": 12,
@@ -156,7 +156,7 @@
             "data": [
               {
                 "key": 13,
-                "text": "Banheiro"
+                "text": "Aparato de Vídeo y/o DVD"
               },
               {
                 "key": 14,
@@ -169,7 +169,7 @@
             "data": [
               {
                 "key": 15,
-                "text": "Banheiro"
+                "text": "Heladera"
               },
               {
                 "key": 16,
@@ -182,7 +182,7 @@
             "data": [
               {
                 "key": 17,
-                "text": "Banheiro"
+                "text": "Congelador (aparato independiente o parte de la heladera-congelador)"
               },
               {
                 "key": 18,
@@ -193,11 +193,11 @@
         ]
       },
       {
-        "caption": "CORTES DO CRITÉRIO BRASIL",
-        "source": "Fonte: ABEP - Associação Brasileira de Empresas de Pesquisa",
+        "caption": "RECORTES DEL CRITERIO BRASIL",
+        "source": "Fuente: ABEP - Asociación Brasileña de Empresas de Investigación.",
         "headers": [
-          "CLASSE",
-          "PONTOS"
+          "CLASE",
+          "PUNTOS"
         ],
         "rows": [
           {
@@ -257,8 +257,8 @@
     ],
     "matrix": [
       {
-        "caption": "DISTRIBUIÇÃO DAS CLASSES POR PRAÇA",
-        "source": "Fonte: ABEP - Associação Brasileira de Empresas de Pesquisa",
+        "caption": "DISTRIBUICIÓN DE LAS CLASES POR MERCADO",
+        "source": "Fuente: ABEP - Asociación Brasileña de Empresas de Investigación.",
         "headers": [
           "GRANDE FORTALEZA",
           "GRANDE RECIFE",
@@ -267,7 +267,7 @@
         "rows": [
           {
             "key": 1,
-            "header": "Classe A1",
+            "header": "Clase A1",
             "data": [
               {"key": 1, "text": "0,5"},
               {"key": 2, "text": "0,5"},
@@ -276,7 +276,7 @@
           },
           {
             "key": 2,
-            "header": "Classe A2",
+            "header": "Clase A2",
             "data": [
               {"key": 1, "text": "2,6"},
               {"key": 2, "text": "3,1"},

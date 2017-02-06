@@ -8,6 +8,8 @@ const NavBar = React.createClass({
             </li>
         ));
 
+        const styleLang = {cursor: 'pointer', color: '#fff', border: 'solid 1px', borderColor: 'transparent', fontSize: 9, padding: '2px 4px'};
+
         return (
             <section
                 className="mbr-navbar mbr-navbar--freeze mbr-navbar--absolute mbr-navbar--transparent mbr-navbar--sticky mbr-navbar--auto-collapse"
@@ -18,26 +20,29 @@ const NavBar = React.createClass({
                             <div className="mbr-navbar__column mbr-navbar__column--s mbr-navbar__brand">
                                 <div className="mbr-navbar__brand-link mbr-brand mbr-brand--inline">
                                     <div style={{position: 'fixed', top: 0}}>
-                                        <span style={{cursor: 'pointer'}}
+                                        <span style={this.props.lang === 'ptBr' ? {...styleLang, borderColor: '#fff'} : {...styleLang}}
                                               onClick={this.props.onPortugueseClick}>
-                                            <img src='/assets/images/br-icon.png'
+                                            {/*<img src='/assets/images/br-icon.png'
                                                  style={{border: this.props.lang === 'ptBr' ?
                                                         'solid 1px #fff' : 'transparent'}}
-                                                 alt="pt-BR"/>&nbsp;
+                                                 alt="pt-BR"/>&nbsp;*/}
+                                                 PORTUGUÊS
                                         </span>
-                                        <span style={{cursor: 'pointer'}}
+                                        <span style={this.props.lang === 'enUs' ? {...styleLang, borderColor: '#fff'} : {...styleLang}}
                                               onClick={this.props.onEnglishClick}>
-                                            <img src='/assets/images/us-icon.png'
+                                            {/*<img src='/assets/images/us-icon.png'
                                                  style={{border: this.props.lang === 'enUs' ?
                                                         'solid 1px #fff' : 'transparent'}}
-                                                 alt="en-US"/>&nbsp;
+                                                 alt="en-US"/>&nbsp;*/}
+                                                 ENGLISH
                                         </span>
-                                        <span style={{cursor: 'pointer'}}
+                                        <span style={this.props.lang === 'sp' ? {...styleLang, borderColor: '#fff'} : {...styleLang}}
                                               onClick={this.props.onSpanishClick}>
-                                            <img src='/assets/images/es-icon.png'
+                                            {/*<img src='/assets/images/es-icon.png'
                                                  style={{border: this.props.lang === 'sp' ?
                                                         'solid 1px #fff' : 'transparent'}}
-                                                 alt="es-ES"/>
+                                                 alt="es-ES"/>*/}
+                                                 ESPAÑOL
                                         </span>
                                     </div>
                                     <span className="mbr-brand__name">
