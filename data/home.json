@@ -1,6 +1,6 @@
 {
   "navBar": {
-    "name": "AboutBrazil",
+    "name": "About Brazil",
     "menuItems": [
       {
         "name": "QUEM SOMOS",
@@ -173,7 +173,7 @@
       ]
     },
     "about": {
-      "title": "Somos a AboutBrazil",
+      "title": "Somos a About Brazil",
       "body": "Uma empresa de pessoas apaixonadas pelo que fazem e que acreditam que pesquisa é vitalmente um trabalho em equipe."
     },
     "association": {

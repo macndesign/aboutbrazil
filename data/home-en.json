@@ -1,6 +1,6 @@
 {
   "navBar": {
-    "name": "AboutBrazil",
+    "name": "About Brazil",
     "menuItems": [
       {
         "name": "WHO WE ARE",
@@ -173,7 +173,7 @@
       ]
     },
     "about": {
-      "title": "We are AboutBrazil",
+      "title": "We are About Brazil",
       "body": "A company of people passionate about what they do and who believe that research is vitally teamwork."
     },
     "association": {
