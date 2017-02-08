@@ -25,7 +25,7 @@
     "image": {
       "rotate": false,
       "rotateTime": 5,
-      "opacity": 0.5,
+      "opacity": 0,
       "list": [
         "http://imageshack.com/a/img923/1738/6MjuhZ.png"
       ]

@@ -13,14 +13,14 @@ const NavBar = React.createClass({
         return (
             <section
                 className="mbr-navbar mbr-navbar--freeze mbr-navbar--absolute mbr-navbar--transparent mbr-navbar--sticky mbr-navbar--auto-collapse"
-                id="menu-74">
+                id="menu-74" style={{textShadow: '1px 1px 3px rgba(35, 35, 35, 1)'}}>
                 <div className="mbr-navbar__section mbr-section">
                     <div className="mbr-section__container container">
                         <div className="mbr-navbar__container">
                             <div className="mbr-navbar__column mbr-navbar__column--s mbr-navbar__brand">
                                 <div className="mbr-navbar__brand-link mbr-brand mbr-brand--inline">
                                     <div style={{position: 'fixed', top: 0}}>
-                                        <span style={this.props.lang === 'ptBr' ? {...styleLang, borderColor: '#fff'} : {...styleLang}}
+                                        <span style={this.props.lang === 'ptBr' ? {...styleLang, borderColor: '#fff', boxShadow: '2px 2px 3px 0 rgba(0,0,0,0.2)'} : {...styleLang}}
                                               onClick={this.props.onPortugueseClick}>
                                             {/*<img src='/assets/images/br-icon.png'
                                                  style={{border: this.props.lang === 'ptBr' ?
@@ -28,7 +28,7 @@ const NavBar = React.createClass({
                                                  alt="pt-BR"/>&nbsp;*/}
                                                  PORTUGUÊS
                                         </span>
-                                        <span style={this.props.lang === 'enUs' ? {...styleLang, borderColor: '#fff'} : {...styleLang}}
+                                        <span style={this.props.lang === 'enUs' ? {...styleLang, borderColor: '#fff', boxShadow: '2px 2px 3px 0 rgba(0,0,0,0.2)'} : {...styleLang}}
                                               onClick={this.props.onEnglishClick}>
                                             {/*<img src='/assets/images/us-icon.png'
                                                  style={{border: this.props.lang === 'enUs' ?
@@ -36,7 +36,7 @@ const NavBar = React.createClass({
                                                  alt="en-US"/>&nbsp;*/}
                                                  ENGLISH
                                         </span>
-                                        <span style={this.props.lang === 'sp' ? {...styleLang, borderColor: '#fff'} : {...styleLang}}
+                                        <span style={this.props.lang === 'sp' ? {...styleLang, borderColor: '#fff', boxShadow: '2px 2px 3px 0 rgba(0,0,0,0.2)'} : {...styleLang}}
                                               onClick={this.props.onSpanishClick}>
                                             {/*<img src='/assets/images/es-icon.png'
                                                  style={{border: this.props.lang === 'sp' ?
@@ -68,7 +68,7 @@ const NavBar = React.createClass({
                                         <ul className="mbr-navbar__items mbr-navbar__items--right mbr-buttons mbr-buttons--freeze mbr-buttons--right btn-inverse mbr-buttons--active">
                                             <li className="mbr-navbar__item">
                                                 <a className="mbr-buttons__btn btn btn-default"
-                                                   href="#contacts2-57">
+                                                   href="#contacts2-57" style={{boxShadow: '2px 2px 3px 0 rgba(0,0,0,0.2)'}}>
                                                     {this.props.contact}
                                                 </a>
                                             </li>
