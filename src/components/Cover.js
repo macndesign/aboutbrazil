@@ -42,7 +42,8 @@ class Cover extends Component {
     render() {
         const coverStyle = {
             backgroundImage: `url(${this.state.image})`,
-            textShadow: '1px 1px 3px rgba(35, 35, 35, 1)'
+            textShadow: '1px 1px 3px rgba(35, 35, 35, 1)',
+            backgroundPositionY: -93
         };
         return (
             <section

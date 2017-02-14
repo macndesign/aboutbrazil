@@ -154,7 +154,7 @@
           "number": "407",
           "city": "Fortaleza",
           "state": "CE",
-          "country": "Brasil",
+          "country": "Brazil",
           "zip": {"label": "CEP", "value": "60430-660"},
           "phone": {"label": "T", "value": "+55 (85) 3021-5784"},
           "fax": {"label": "T", "value": "+55 (85) 3047-8126"}
@@ -165,7 +165,7 @@
           "number": "03 - sala 401",
           "city": "Salvador",
           "state": "BA",
-          "country": "Brasil",
+          "country": "Brazil",
           "zip": {"label": "CEP", "value": "40110-010"},
           "phone": {"label": "T", "value": "+55 (71) 3266-1038"},
           "fax": {"label": "T", "value": "+55 (71) 99107-4145"}
